@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151719">
+  <meta name="description" content="以可交互的程序化 3D 模型探索富士 X-S10 与 XC 50–230mm 镜头，逐层拆解光学与机身结构。">
+  <title>富士 X-S10 · 解构实验室</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2317191b'/%3E%3Cpath d='M14 22h11l4-6h13l4 6h5v28H14z' fill='none' stroke='%23eb9a60' stroke-width='3'/%3E%3Ccircle cx='33' cy='35' r='9' fill='none' stroke='%23eb9a60' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../../#featured-fuji" aria-label="返回网页简历"><span class="brand-mark"><svg viewBox="0 0 28 28" fill="none"><path d="m14 3 10 6v11l-10 6-10-6V9zM4 9l10 6 10-6M14 15v11M9 6l10 6v5" stroke="currentColor" stroke-width="1.5"/></svg></span><span>解构实验室<span class="brand-sub">← 返回个人简历</span></span></a>
+    <nav aria-label="页面导航"><button class="nav-item active" id="explore-tab" aria-current="page">交互拆解</button><button class="nav-item" id="specs-tab">相机参数</button></nav>
+    <div class="header-end"><a class="project-context" href="../../projects/index.html#project-fuji">项目说明 ↗</a><button class="icon-button" id="help-button" aria-label="查看操作指南"><span data-icon="help"></span></button></div>
+  </header>
+  <main class="workspace">
+    <aside class="parts-panel">
+      <div class="panel-heading"><h2>结构图谱</h2><span class="count">10</span></div>
+      <p class="panel-subtitle">从整机，到每一个精密部件。</p>
+      <div class="list-tabs" role="group" aria-label="部件筛选"><button id="all-filter" class="selected" aria-pressed="true">全部部件</button><button id="detached-filter" aria-pressed="false">已拆解 <span id="detached-count">0</span></button></div>
+      <div class="parts-list" id="parts-list" aria-label="可交互部件清单"></div>
+      <div class="parts-footer"><span class="status-dot"></span><span>点击模型或清单，探索部件</span></div>
+      <div class="sidebar-note"><span data-icon="layers"></span><p>程序化结构示意<br><span>外观参照实机，内部结构为教学示意。</span></p></div>
+    </aside>
+    <section class="stage" id="stage" aria-label="富士 X-S10 三维交互模型">
+      <div id="canvas-wrap"></div>
+      <div class="stage-heading"><div class="eyebrow"><span></span> 精密之间，影像之始</div><h1>FUJIFILM <span>X-S10</span></h1><p>搭载 FUJINON XC 50–230mm F4.5–6.7 OIS II</p></div>
+      <div class="stage-badge"><span class="status-dot"></span><span id="view-status">整机视图</span><span class="badge-divider"></span><span id="part-progress">00 / 10</span></div>
+      <div class="labels-layer" id="labels-layer"></div>
+      <div class="stage-tools" role="group" aria-label="视图工具">
+        <button id="labels-button" class="tool-button active" aria-label="显示部件标注" aria-pressed="true" title="部件标注"><span data-icon="tag"></span></button>
+        <button id="rotate-button" class="tool-button" aria-label="自动旋转" aria-pressed="false" title="自动旋转"><span data-icon="rotate"></span></button>
+        <span class="tool-divider"></span>
+        <button id="zoom-in" class="tool-button" aria-label="放大" title="放大"><span data-icon="plus"></span></button>
+        <button id="zoom-out" class="tool-button" aria-label="缩小" title="缩小"><span data-icon="minus"></span></button>
+        <button id="reset-view" class="tool-button" aria-label="重置视角" title="重置视角"><span data-icon="reset"></span></button>
+        <span class="tool-divider"></span><button id="fullscreen-button" class="tool-button" aria-label="全屏查看" title="全屏查看"><span data-icon="fullscreen"></span></button>
+      </div>
+      <div class="view-presets" role="group" aria-label="预设视角"><button data-view="perspective" class="active" aria-pressed="true">透视</button><button data-view="front" aria-pressed="false">正面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="top" aria-pressed="false">顶部</button></div>
+      <div class="stage-bottom"><span><span data-icon="mouse"></span>拖动旋转</span><span><span data-icon="scroll"></span>滚轮缩放</span><span><span data-icon="pointer"></span>点击拆解</span></div>
+      <div class="axis-widget" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M29 36 49 44M29 36 14 48M29 36 29 12" stroke="#727b7f"/><circle cx="29" cy="36" r="3" fill="#bdc3c5"/><text x="50" y="48" fill="#c79e83">X</text><text x="8" y="58" fill="#94aaa0">Z</text><text x="26" y="10" fill="#a4afb9">Y</text></svg></div>
+      <div class="loader" id="loader"><span class="loader-ring"></span><p>正在构建精密影像世界</p></div>
+      <div class="error-state" id="error-state" hidden><h2>3D 视图暂时无法启动</h2><p>请开启浏览器硬件加速后刷新；部件清单与参数仍可查看。</p><button id="retry-button">重新加载</button></div>
+    </section>
+    <aside class="details-panel">
+      <div class="detail-header"><span class="eyebrow">部件档案</span><span id="detail-index">01 / 10</span></div>
+      <div class="detail-diagram" id="detail-diagram" aria-hidden="true"></div>
+      <div class="detail-category" id="detail-category">机身结构</div>
+      <h2 id="detail-title">机身框架</h2><p class="detail-english" id="detail-english">Camera body</p>
+      <p class="detail-description" id="detail-description"></p>
+      <dl class="detail-specs" id="detail-specs"></dl>
+      <button class="part-action" id="part-action"><span data-icon="detach"></span><span id="part-action-text">拆解此部件</span><span class="action-arrow">↗</span></button>
+      <div class="detail-tip"><span data-icon="info"></span><span>在左侧选择部件，查看结构与作用。</span></div>
+      <div class="model-stats"><div><strong>26.1<span>MP</span></strong><span>X-Trans CMOS 4</span></div><div><strong>6.0<span>挡</span></strong><span>五轴机身防抖 · 最高</span></div></div>
+      <a class="source-link" href="https://fujifilm-dsc.com/en/manual/x-s10/technical_notes/spec/" target="_blank" rel="noopener noreferrer">参数来源 · Fujifilm 官方 <span>↗</span></a>
+    </aside>
+  </main>
+  <footer class="control-bar">
+    <div class="control-title"><span data-icon="layers"></span><div><strong>探索结构的每一层</strong><span>使用滑块，控制整体拆解程度</span></div></div>
+    <div class="explosion-control"><label for="explode-range">组装</label><input id="explode-range" type="range" min="0" max="100" value="0" aria-label="整体拆解程度"><span id="explode-value">0%</span><span>拆解</span></div>
+    <div class="primary-actions"><button id="reset-all" class="secondary-button"><span data-icon="reset"></span>还原整机</button><button id="explode-all" class="primary-button"><span data-icon="explode"></span><span id="explode-all-text">一键拆解</span></button></div>
+  </footer>
+  <dialog id="help-dialog"><div class="dialog-heading"><span class="eyebrow">探索指南</span><button class="icon-button close-dialog" aria-label="关闭指南"><span data-icon="close"></span></button></div><h2>亲手拆开，才能看懂。</h2><div class="guide-row"><span data-icon="mouse"></span><div><h3>自由观察</h3><p>拖动旋转相机，滚轮或双指缩放。右侧工具栏提供固定视角和自动旋转。</p></div></div><div class="guide-row"><span data-icon="pointer"></span><div><h3>逐件探索</h3><p>点击模型上的部件可拆解或装回；左侧清单选择部件，右侧查看参数并执行拆解。</p></div></div><div class="guide-row"><span data-icon="layers"></span><div><h3>掌控全局</h3><p>拖动底部滑块连续拆解，点击“一键拆解”展开所有部件。“还原整机”恢复初始状态。</p></div></div><p class="keyboard-hint">快捷键：<kbd>E</kbd> 整体拆解 <kbd>R</kbd> 还原整机 <kbd>Esc</kbd> 关闭弹窗</p><button class="primary-button close-dialog">开始探索 <span>↗</span></button></dialog>
+  <dialog id="specs-dialog"><div class="dialog-heading"><span class="eyebrow">技术规格</span><button class="icon-button close-dialog" aria-label="关闭参数"><span data-icon="close"></span></button></div><h2>小巧机身，完整创造力。</h2><p class="dialog-subtitle">Fujifilm X-S10 + FUJINON XC 50–230mm OIS II</p><div id="full-specs"></div><p class="spec-footnote">规格参照官方资料。防抖效果随镜头与拍摄条件变化；模型内部布局、拆解路径与部件厚度为交互教学示意。</p><a href="https://www.fujifilm-x.com/en-us/products/lenses/xc50-230mmf45-67-ois-ii/specifications/" target="_blank" rel="noopener noreferrer" class="source-link">查看镜头官方参数 ↗</a></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
