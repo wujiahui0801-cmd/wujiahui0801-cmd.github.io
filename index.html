@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="resume.css">
   <link rel="stylesheet" href="motion.css">
   <link rel="stylesheet" href="art.css">
-  <link rel="preload" as="image" href="assets/portrait-2400.jpg" imagesrcset="assets/portrait-1200.jpg 1200w, assets/portrait-2400.jpg 2400w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/previews/hero-mobile.webp" type="image/webp" media="(max-width: 700px)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/previews/hero-desktop.webp" type="image/webp" media="(min-width: 701px)" fetchpriority="high">
   <script src="app.js" defer></script>
   <script src="motion.js" defer></script>
 </head>
@@ -33,7 +34,7 @@
   </header>
   <main id="main">
     <section class="hero image-backdrop" id="top" aria-labelledby="hero-title" data-photo="assets/portrait-2400.jpg" data-photo-mode="background" style="--photo-scale:1;--focus-x:50%;--focus-y:18%;--focus-mobile-x:51%;--focus-mobile-y:28%">
-      <picture class="hero-picture"><img src="assets/portrait-2400.jpg" srcset="assets/portrait-1200.jpg 1200w, assets/portrait-2400.jpg 2400w" sizes="100vw" width="2400" height="1600" fetchpriority="high" alt="吴嘉辉在演出现场的原照，身穿条纹衬衫"></picture>
+      <picture class="hero-picture"><source type="image/webp" media="(max-width: 700px)" srcset="assets/previews/hero-mobile.webp"><source type="image/webp" srcset="assets/previews/hero-desktop.webp"><img src="assets/portrait-2400.jpg" srcset="assets/portrait-1200.jpg 1200w, assets/portrait-2400.jpg 2400w" sizes="100vw" width="2400" height="1600" fetchpriority="high" decoding="async" alt="吴嘉辉在演出现场的原照，身穿条纹衬衫"></picture>
       <div class="hero-content">
         <p class="hero-edition">内容 · 影像 · AI</p>
         <p class="hero-role">短视频编导 · 账号运营</p>
@@ -54,7 +55,7 @@
       <span class="highlight-destination">账号主页与增长数据</span>
       
     </div></div>
-    <div class="highlight-art" aria-hidden="true"><img src="/assets/full/boshang-profile.jpg" alt="" width="859" height="1900" loading="eager" decoding="async"></div>
+    <div class="highlight-art" aria-hidden="true"><picture><source type="image/webp" srcset="/assets/previews/boshang.webp"><img src="/assets/full/boshang-profile.jpg" alt="" width="859" height="1900" loading="lazy" fetchpriority="low" decoding="async"></picture></div>
   </article><article class="highlight highlight--photo-series" id="photo-series">
     <div class="highlight-copy"><p class="highlight-label">02 · 个人内容系列</p><h3><a class="highlight-primary" href="/creator/index.html">涌明摄影诗 <span aria-hidden="true">↗</span></a></h3><p class="highlight-summary">拆解《星际穿越》式叙事，将买卖相机的话题写成系列，由我选题、改稿并拍摄。</p>
     <div class="highlight-metric"><span class="highlight-value">308.9 万</span><span>系列单条播放</span></div>
@@ -62,7 +63,7 @@
       <span class="highlight-destination">系列成片与账号成绩</span>
       <a class="highlight-film" href="https://www.douyin.com/user/MS4wLjABAAAAPx4VjMVy9HaE9G9XdXsi0VzgccFiwJcHYvqlIXj0hOIBhg8Y4hmEbFCSp9H2K3Ay?from_tab_name=main&amp;modal_id=7633719486269361829" target="_blank" rel="noopener noreferrer">看摄影成片 <span aria-hidden="true">↗</span></a>
     </div></div>
-    <div class="highlight-art" aria-hidden="true"><img src="/assets/full/photo-series.jpg" alt="" width="890" height="1980" loading="eager" decoding="async"></div>
+    <div class="highlight-art" aria-hidden="true"><picture><source type="image/webp" srcset="/assets/previews/creator.webp"><img src="/assets/full/photo-series.jpg" alt="" width="890" height="1980" loading="lazy" fetchpriority="low" decoding="async"></picture></div>
   </article><article class="highlight highlight--fuji" id="featured-fuji">
     <div class="highlight-copy"><p class="highlight-label">03 · AI 交互作品</p><h3><a class="highlight-primary" href="/demos/fuji/index.html">富士 X-S10 · 3D 拆解 <span aria-hidden="true">↗</span></a></h3><p class="highlight-summary">定义相机展示与交互需求，借助 Codex 实现可旋转、缩放、拆解的 3D 网页。</p>
     <div class="highlight-metric"><span class="highlight-value">旋转 · 缩放 · 拆解</span><span>可操作的相机展示</span></div>
@@ -70,7 +71,7 @@
       <span class="highlight-destination">进入 3D 交互体验 ↗</span>
       
     </div></div>
-    <div class="highlight-art" aria-hidden="true"><img src="/assets/evidence/fuji-cover.jpg" alt="" width="1440" height="900" loading="eager" decoding="async"></div>
+    <div class="highlight-art" aria-hidden="true"><picture><source type="image/webp" srcset="/assets/previews/fuji.webp"><img src="/assets/evidence/fuji-cover.jpg" alt="" width="1440" height="900" loading="lazy" fetchpriority="low" decoding="async"></picture></div>
   </article></div>
     </section>
     <section class="journey section-shell" id="journey" aria-labelledby="journey-title">
