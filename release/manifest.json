@@ -1,5 +1,5 @@
 {
-  "release": "84016833014a",
+  "release": "1c808c1d5d98",
   "files": [
     {
       "path": ".nojekyll",
@@ -1851,20 +1851,20 @@
     },
     {
       "path": "cases/allin/index.html",
-      "size": 62957,
-      "sha256": "37c9db248da22a9497535d4bb2b33700f459ff89bd88407128ceb63419b6a7e2",
+      "size": 63263,
+      "sha256": "453fb9c45ff1bc27d462bbbfe2819f4c66799b679ff0cc0ebdb35f8da6fc908c",
       "changed": true
     },
     {
       "path": "cases/boshang/index.html",
-      "size": 26569,
-      "sha256": "1d6aaa6713074d2390b078fd7db87448ce88cd82b09484cf56809bdbe4a8c238",
+      "size": 26869,
+      "sha256": "e19d72362ba35d5966e0dcec67a22ea8e9f71ac48203f5c21b985f76949bd772",
       "changed": true
     },
     {
       "path": "cases/stage/index.html",
-      "size": 22803,
-      "sha256": "c073ff6728c7b122fc6124af9c03c1d8093005b2323ebe8022aca5b6a8612190",
+      "size": 22953,
+      "sha256": "2d64b3948212f85bcc56316e178f01f9a6521a53ff39e58173bc6485b47972e2",
       "changed": true
     },
     {
@@ -1875,8 +1875,8 @@
     },
     {
       "path": "creator/index.html",
-      "size": 44038,
-      "sha256": "1924dfaeef9036d476879df1050773c3375e5b021ee9c4d8e8a9767ae8c014ca",
+      "size": 44341,
+      "sha256": "bfd7d77f27f35e798e831c8cfed9a5406d931aba713c0f75da5da7e0ebf09157",
       "changed": true
     },
     {
@@ -1923,14 +1923,14 @@
     },
     {
       "path": "image-preload.js",
-      "size": 5309,
-      "sha256": "341d32e9342806b1448ed15837ebdac394404897833e66fa4a07cda11d47be7b",
+      "size": 4954,
+      "sha256": "bb1d4dc65d5aea595837edcf6b03987ea6fa0c6675b8ddfbd97b222e4921a13e",
       "changed": true
     },
     {
       "path": "index.html",
-      "size": 43622,
-      "sha256": "e2a0dedd261d349adfeaaf513536c5e2734095e24ffec5f775154e7b0ec91599",
+      "size": 43107,
+      "sha256": "f9edf83a04f3613619c497cb50ccbadc9a643850a3d3e22be9a52c488a51688c",
       "changed": true
     },
     {
@@ -1947,14 +1947,14 @@
     },
     {
       "path": "projects/index.html",
-      "size": 26507,
-      "sha256": "4bc70010e4edc05bf6d4cffd429834ea436b621b23b1cfc87af673316cd87bec",
+      "size": 26908,
+      "sha256": "8d482f45370e29834c08ddd0f102ad9264356123c3af6e4cbce5203208f3bb70",
       "changed": true
     },
     {
       "path": "refinement.css",
-      "size": 54112,
-      "sha256": "96726c2c0e1278b01685aaf9ef97c16bd7ec98ad8d6c19052ad1cc3cdc2c9be9",
+      "size": 54669,
+      "sha256": "c55ceb9dc7fa7419557ccb8d1d3ad0922850ee9d1cd3126ec1dc832ccb9f111c",
       "changed": true
     },
     {
