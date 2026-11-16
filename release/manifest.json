@@ -1,5 +1,5 @@
 {
-  "release": "6405a76a9ea1",
+  "release": "85093640b925",
   "files": [
     {
       "path": ".nojekyll",
@@ -9,8 +9,8 @@
     },
     {
       "path": "app.js",
-      "size": 13718,
-      "sha256": "73f342591e2783d69d14edb179358b375a55eb40610f6c0559ad7178a9b4a525",
+      "size": 14475,
+      "sha256": "b9a1e7715ad8c3f5495935ed35582a88912ea5b545841e586d35a3872d4c5c56",
       "changed": true
     },
     {
@@ -1852,19 +1852,19 @@
     {
       "path": "cases/allin/index.html",
       "size": 50047,
-      "sha256": "03fcd1a73d41f8e6067430d02bf94f20ac8f5a4ee0621310f752099f263fd529",
+      "sha256": "26e0a5544a5b2e01d5c23dc88d8d2d925214e66ecf4ae2adffedd555680acaf2",
       "changed": true
     },
     {
       "path": "cases/boshang/index.html",
       "size": 13659,
-      "sha256": "df654bb8c9c7afe4d2cc85e54e2d391ff7d56588f67d74dba6fba85aa6334c29",
+      "sha256": "8ecd1ebb76be0f58b4f49039b3c1373b09b5e145dec5e192e6b42e319d065467",
       "changed": true
     },
     {
       "path": "cases/stage/index.html",
       "size": 9893,
-      "sha256": "cd815653e937da6562842321b78b2db1d6bfb582d89b884bf5afb0efcc8f4d8e",
+      "sha256": "c53baa2ce23ae8289ae1baf567f2ea5068169ffed849e56890ba8ea4f83fc654",
       "changed": true
     },
     {
@@ -1876,7 +1876,7 @@
     {
       "path": "creator/index.html",
       "size": 31128,
-      "sha256": "54b44f373ade52186393343fe58d0a066748adddfc20bf18d0aa94cc6416f02e",
+      "sha256": "882704309d7c147296b9614ef8d5e2af0cdcdff1f0a14e7f89d9dd1eb08440ef",
       "changed": true
     },
     {
@@ -1923,8 +1923,8 @@
     },
     {
       "path": "index.html",
-      "size": 29079,
-      "sha256": "80bf15ed03b04fd430894bf02b4248d37fe5afc43afe2027e09328bbba0942a2",
+      "size": 30664,
+      "sha256": "33c908ae66539fa65defe898b465a88086d23473dbceb1070135957158461da8",
       "changed": true
     },
     {
@@ -1942,7 +1942,7 @@
     {
       "path": "projects/index.html",
       "size": 13597,
-      "sha256": "8d2198b7d2b49d01ee2c15d1cbd253bd2a413d1f26ee6eec8911e6796078ed67",
+      "sha256": "36d740c2c8ff0a6111c861727db0f9d18952b4146f3b896851cd66fb91eea052",
       "changed": true
     },
     {
