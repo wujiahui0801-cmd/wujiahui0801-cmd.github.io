@@ -1,0 +1,2273 @@
+{
+  "release": "6405a76a9ea1",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "path": "app.js",
+      "size": 13718,
+      "sha256": "73f342591e2783d69d14edb179358b375a55eb40610f6c0559ad7178a9b4a525",
+      "changed": true
+    },
+    {
+      "path": "art.css",
+      "size": 24981,
+      "sha256": "ef4b6b11cf847d061009599e9f653645c2d7a99165bf0410ab56317aff7d335b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/001.webp",
+      "size": 29392,
+      "sha256": "67caedfca553d120254dada01aed58ca7994f5fad76d2d2bd5457172c94a4c62",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/002.webp",
+      "size": 45652,
+      "sha256": "0848f11fa0eaf7589d9a649b9a109bb9bf4b182da47c46734b120d8f7a04e0d1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/003.webp",
+      "size": 149318,
+      "sha256": "faba28ce9414173164ad3083f3d02fd1aa7d6c72c9747654fc60f1fceb63071d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/004.webp",
+      "size": 75922,
+      "sha256": "4735100821e4dda00094206d44802a480f5fbcfe319c7e6e3d0cdfb49f492a04",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/005.webp",
+      "size": 68630,
+      "sha256": "067233fee00f68a32aaa86662e9fd63deb27bc14f777f3d02333a96fbbe2ca2c",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/006.webp",
+      "size": 140724,
+      "sha256": "b4c4a25dd6839b1e80cd15b3c000b9253955c5da0623943684cb12e75546a53c",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/007.webp",
+      "size": 83666,
+      "sha256": "f0bb2f888158e764ad0ce125ff1429b5e4a29515e7cd032edcb526b3847b0ac1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/008.webp",
+      "size": 28624,
+      "sha256": "3d0624b5e278292d6deb5d6ca35b6712fa824bb7cbd6946f65a59601e5c29f65",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/009.webp",
+      "size": 112844,
+      "sha256": "f09cb19e7a5e9d8a18aa17f071e78a82e7317ed47fa41c229a3aadf26026267b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/010.webp",
+      "size": 60186,
+      "sha256": "a7fcb511966035523b8bf4f25cc7848f9ab50e3dc25af233f58c5a72c00065cb",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/011.webp",
+      "size": 29230,
+      "sha256": "3eab01cbdf6cd65e32ea59c2393ac8519a3eb25f341e4455a75663e2db5552c4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/012.webp",
+      "size": 74190,
+      "sha256": "d535a0440ff9c6e111b626d51cfb9f9ec9eb6f052e99d3929e0e0c00a517718f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/013.webp",
+      "size": 24922,
+      "sha256": "ab9d35ecd030b3ce31676d7a043a884e5d75fa6595742221d29276ae625b2c71",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/014.webp",
+      "size": 91838,
+      "sha256": "a02f9f0573697a484e9e216bb5dca342a6c4e82960832eaa983d701ae8c469e1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/015.webp",
+      "size": 50894,
+      "sha256": "951fe7f510478f65a0d6126eab9e0006b0298e29a622abfa8ba9e9d128464077",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/016.webp",
+      "size": 25930,
+      "sha256": "7bafb36bbb9dd138f2c6ea54f8a76d71f9a9b33efb4f2fac9efd3ac42216b8e3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/017.webp",
+      "size": 82488,
+      "sha256": "848e8b2c86a919ec1c86e5f68088208d317e5fad4f05c03cd3d4bb87c72f3278",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/018.webp",
+      "size": 129666,
+      "sha256": "2f9ebc038f500a4f382da0a6ce7ca365c83d22df584900b64ef228d7b88ddbf7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/019.webp",
+      "size": 62266,
+      "sha256": "7e3983f8d6164ed53b4eac6055641090eac98181c02cb70a85cf6bd3d4fac1ee",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/020.webp",
+      "size": 116790,
+      "sha256": "479cf0efa1d32b614feac2aba25cac15e9c542d2dcf6bd00684f05b648e0efc2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/021.webp",
+      "size": 119278,
+      "sha256": "d9eab3a1acf655f96c06f1dd7b694bb8932e21955dca1356a1fafedb37d688e2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/022.webp",
+      "size": 113298,
+      "sha256": "c26725e5d06e2805f7761104db9d40193969ef288a4f86ea32f437432ab82162",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/023.webp",
+      "size": 98626,
+      "sha256": "9f4da1580fbce7395ddeefc2dd7cdd1a54ba5ece0fede58511561b2ed28ec6fd",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/024.webp",
+      "size": 93012,
+      "sha256": "7c91dc64b8c22c286524c6ffdcd0c895c9f5f58eaaf1c19fa2233365ebfc00be",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/025.webp",
+      "size": 28650,
+      "sha256": "e7dcae13136b25a8f62bfd45f4aa17f3bd633a5d3d892acee3c18c302bb198b2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/026.webp",
+      "size": 134738,
+      "sha256": "b28828e4b766ba3eb37c99ae12023859cc07ee17074f0ce21f4287a6064dc1a8",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/027.webp",
+      "size": 28392,
+      "sha256": "23864dceb1e6d038e467c14cf79372e11fba030e909e15049e0558a38cace710",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/028.webp",
+      "size": 119544,
+      "sha256": "52c70cc3ef555fd2e2a66e42178a73ffca5f7dcea17c31cb8440831405be4bbc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/029.webp",
+      "size": 25436,
+      "sha256": "3c6626f63d70ccceec89610ef1752f43ab417d7a06bd2718d4366a86681341aa",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/030.webp",
+      "size": 91236,
+      "sha256": "7693893424369287ff11e1aaadea0ab037089c8e05ab7c6c9f816bc0ddd20639",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/031.webp",
+      "size": 28812,
+      "sha256": "287b2de95afe9d994051baa39d0a785bcf90e7812968b2daf6b2e5d1d393c07d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/032.webp",
+      "size": 172486,
+      "sha256": "8968ea882864c4177b833a6a2acf6e042b059e65d5df1f0b7117796f4c09066e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/033.webp",
+      "size": 210352,
+      "sha256": "877ff916e555550f5e9d43676d7534ab239c0cd82816a3c2d21acae99e8acf1b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/034.webp",
+      "size": 194932,
+      "sha256": "9e807b26e4adfb83fd0090b05f4198ea57cba7037a59787ae9da3b228e36ae36",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/035.webp",
+      "size": 53510,
+      "sha256": "3bbc81c132daef5fa4dd8ccae6173dd410cd547c2f5abb01efc5d2b5fb5a54c3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ad/036.webp",
+      "size": 64022,
+      "sha256": "ddb5d100060e93c0c2db4065e3f9aef41ff5c1167ec61e185b7e9ecfa7c67b9a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/001.webp",
+      "size": 28682,
+      "sha256": "426054cfb941da8694b0eef979685c9abd409822f09a2fe8c09d56609f6a9c23",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/002.webp",
+      "size": 30426,
+      "sha256": "2feea8e58b00416a704a00a912a3279b7eb1067d41b36e15e3e034c64a4df37f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/003.webp",
+      "size": 115932,
+      "sha256": "5f71a8b81fd9547c196b85f00c6050f4548b001963ab12313e615cee39fd4a8e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/004.webp",
+      "size": 37194,
+      "sha256": "1e8434c148ea7cfa948f611d469d9274a71f40bc913d39db23b0a04e29b5e860",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/005.webp",
+      "size": 35008,
+      "sha256": "227bb9f95ca467b7fbfbbf42395d2f9d20b0427d2b0ec4048a55863c68daee71",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/006.webp",
+      "size": 70440,
+      "sha256": "f03b599f6f1d5cf18675bdd2d2b05f0b96471d324ce888553f1a53448dfff46e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/007.webp",
+      "size": 83054,
+      "sha256": "3955ab73c93d1ae27d723726152af98e6d55c6df96cb6e38a15e4dfb8dca3643",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/008.webp",
+      "size": 26266,
+      "sha256": "f773367e8e8eaad86502976616313f887f70184c9ec0205bdcb745ab5ec348f7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/009.webp",
+      "size": 64584,
+      "sha256": "65aa864952237192f542be7eb601752b7cec926cbf598bc156b1d63a874c407a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/010.webp",
+      "size": 135454,
+      "sha256": "c2eac796801d9c008981ed8a1742609e3dcc7564c815a98482f23a6fb53c7cfd",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/011.webp",
+      "size": 23890,
+      "sha256": "9d339941371ab04943a644d6fc7a5dc7dc0787b7841266122a4d6217ed85e15b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/012.webp",
+      "size": 162536,
+      "sha256": "95141fd513385888ac6f6af1b42dd4bb8f7941550b48a0a99ce0745bee948c7a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/013.webp",
+      "size": 39028,
+      "sha256": "54700df4de7c8a70260f1821e383d3351abd05a3036a759852370e93155f4c07",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/014.webp",
+      "size": 14982,
+      "sha256": "b7a884f5045748c388c50be564dc5278d976a679764c9f96cb24299a1bb2bc15",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/015.webp",
+      "size": 158610,
+      "sha256": "2cfab3018ee5da5feef308bf5db119433f0630e0b20c38a3f02a47c87272b648",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/016.webp",
+      "size": 84248,
+      "sha256": "dda1cbe22d7179a54b900d5c0b92ef1461a85844eb1d0e5a5c06d72d93b52da2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/017.webp",
+      "size": 68756,
+      "sha256": "ba05f41c00bb4c71c91c962dbeb03a26f162455a5b53ef1c69559068125e87ef",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/018.webp",
+      "size": 14280,
+      "sha256": "b82e0593cc4b0fc5989557e8a987ce01f4d302d074be9d251655eaae22f33607",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/019.webp",
+      "size": 70214,
+      "sha256": "8f6eee73b3dfd22d804eabc0e2ccd178a5e910d253267459a581d31842b2b692",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/020.webp",
+      "size": 34994,
+      "sha256": "9ae51eec1f9edd40368306df46c72c6800f24a019356db02e01a19e756cd02a2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/021.webp",
+      "size": 14270,
+      "sha256": "37b8e391cce9662b8b422ba41a495f4dc862c374b37015dcb7664c1db9ad4a54",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/022.webp",
+      "size": 74354,
+      "sha256": "439b7f7ced5db2c204d2fb56a26d359b20772e668f3b85e3372065deadf88f3b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/023.webp",
+      "size": 13228,
+      "sha256": "e8f21c0cddf33237b790ecfafaf2ec6c049535382f903baa30bd892907e44a51",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/024.webp",
+      "size": 67208,
+      "sha256": "24bce1ca2799ac6671f2e99e329e2bcadee5120c89c2fc499531dbeac8ce1743",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/025.webp",
+      "size": 13318,
+      "sha256": "feee65eb7cde4eba84b72573f4cd81519e36cd3f8432004d58fcf1bc9d3fb7b9",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/026.webp",
+      "size": 76924,
+      "sha256": "69aa914910d8e98a9999d3de7bbe4c74497287b1bc89dc6f06a3752f97067b75",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/027.webp",
+      "size": 18174,
+      "sha256": "3a0bd1d02d680f4861353b5bbb833ce28f3308d1ce38eb2152521436b7efc17a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/028.webp",
+      "size": 72690,
+      "sha256": "4695ff5d5c6b937b01a0b781de94472e975567f08a3ceed79707d768ddb333f5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/029.webp",
+      "size": 15178,
+      "sha256": "a1564bdabba8a1d01a4d907c65aec81d7825cbca9c6a8b576c67e86dc94904d2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/030.webp",
+      "size": 133160,
+      "sha256": "3fd0b0ae4eee64699d32f2a88f76f01fd458710fa32a9adc211a9a4ef1f2c755",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/031.webp",
+      "size": 20214,
+      "sha256": "7e24e98e9951b46125a6ffe4a3d15dba85a8208cdc3c0ce679feb95e52407722",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/032.webp",
+      "size": 50026,
+      "sha256": "0e0eb90d1d153ca30b43eed288b307bb74bdc99cc4fba336e0e6a3e6c0f99702",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/033.webp",
+      "size": 75582,
+      "sha256": "0031389c4c478e924d994d2359db0102c2edcad918cb79a52aa3482c69fc5abc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/034.webp",
+      "size": 29884,
+      "sha256": "07f631168ad16bc81978dc04490d8472bb12db5f7c8ee97d643254fb382b1c85",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/035.webp",
+      "size": 38670,
+      "sha256": "a79ef27a2b27dfae030c08f4e88fb56704f05ef8f4f73f6171728ac3398459b2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/036.webp",
+      "size": 43394,
+      "sha256": "e8f076996ddd947947228d544e2905c294391c6a16e18c2ead544af8e0ce1f41",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/037.webp",
+      "size": 42988,
+      "sha256": "96959f0263ea6bde67be70056f4975233641f9b54aa664f6d6c99b8137a244e0",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/038.webp",
+      "size": 47934,
+      "sha256": "3109a3d1e987a6796f6df3d06eececbdba184f31c64ab3859843194b4992cae4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/039.webp",
+      "size": 70860,
+      "sha256": "df9ac6c19cd913bde8dcdff6f99b1a989989aa4e863f7774413bd07b2a4407a7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/040.webp",
+      "size": 108312,
+      "sha256": "fa2410f8f3cb662d7586355c254a403597824c296f2621824f8358ff181eb7d9",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/041.webp",
+      "size": 41980,
+      "sha256": "0d4cd182d8da71c3274dee74a606905ee668e7e4b6d1eb20035bdc723b16ac57",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/042.webp",
+      "size": 188998,
+      "sha256": "fd7d066336dab49516a7a43f4d365cc3e3272bf224e5a55d09e0a51a79d20b23",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/043.webp",
+      "size": 53502,
+      "sha256": "ec2cf6e53223b6d98d94134f784135336e8d90973f2fe7457c37c906aeb05200",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/044.webp",
+      "size": 165190,
+      "sha256": "f71b19bfb902b307082d0ef073cf1098f8429526b72b29e486f9508f3086e7d4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/045.webp",
+      "size": 176026,
+      "sha256": "173996da766e2c2f7a6f8c1fc89f7e6ce2a960ab46af3e9344817e3f6ec388b5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/046.webp",
+      "size": 53440,
+      "sha256": "d7def8e659d9c19d3b587eedfe4b2de0c687cdd666a5c29611fa6c2498c5fdc2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/047.webp",
+      "size": 111264,
+      "sha256": "3168f908d0d0853d51c50b28eceb833b55612ad6647536aa1da2554232ed96bc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/ai-workflow/048.webp",
+      "size": 63390,
+      "sha256": "13dcbf3bee11477d6066b1da99ef0a65baa3ba0fa665683df18de3032ddeb87f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/001.webp",
+      "size": 22504,
+      "sha256": "d86052bb331f9e5b45ffb9ab7c39a31729bc867371ea98dbfc4548ac1d05b456",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/002.webp",
+      "size": 25432,
+      "sha256": "e1f1e392c4e4dccd3145c91d993841167dd8f261cc381ce86ef3fd0056549780",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/003.webp",
+      "size": 49786,
+      "sha256": "591e73f1610e1fa3d87c130d0fbfcebf98cde539b1c9017ce4b12c74b28913ab",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/004.webp",
+      "size": 146756,
+      "sha256": "4f557df6bfcf2d56e6dfa406ce208aea1b53cffa1199973f72bc0541cbd70f3f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/005.webp",
+      "size": 89106,
+      "sha256": "012b4f2283f163f5888078cbd4c6843970d19069e037b6545cac894ae0da709c",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/006.webp",
+      "size": 35254,
+      "sha256": "6cc334a969189b0cc2c096586aeefdd9b6494641b8c6588289bdf952953417e8",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/007.webp",
+      "size": 128490,
+      "sha256": "95b0c7b0ed1909e386255bbe60922710083dab7fcc78c53eca2d7058843e8f52",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/008.webp",
+      "size": 35562,
+      "sha256": "8b59b1d9720aa170db005a88239ebd4f8e259b6b48f1ea42f86e0374907a511f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/009.webp",
+      "size": 20222,
+      "sha256": "13eaf6eef01a81b3e5665cc885696471b2ddc432df1b16b1e21b6cb2506fe1ba",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/010.webp",
+      "size": 64242,
+      "sha256": "5a58242dc40b97a2c4133119c07c4b081eba25d1f179d2cffcf9a2d273c08a26",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/011.webp",
+      "size": 99624,
+      "sha256": "a7e2e83f6529a2aa364f3776a1d5625f4df0ef0d6942217da51eab6d8aff7ec4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/012.webp",
+      "size": 31800,
+      "sha256": "41c3ed1d8eff85a8861894d48d06238e845e6bbd3d2dcc25c7943c3777735738",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/013.webp",
+      "size": 52450,
+      "sha256": "7582b96947e1337863e9c442f2201dd3ccf503a30b55975b8e48aa2826ce6bee",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/014.webp",
+      "size": 84698,
+      "sha256": "0f2c28f2037a56138ba80a70d9a98fc55223815e6b6d6d77b54005ea1fe7dead",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/015.webp",
+      "size": 83534,
+      "sha256": "4451035bd8b9c433f91ada83e1f27faf530150bf5e48188110cf7b0519f2ff79",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/016.webp",
+      "size": 84842,
+      "sha256": "74620ad95505aab4807f9458d0427f1c28e0de20dea5822ea46a10d3cba7e7d6",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/017.webp",
+      "size": 34732,
+      "sha256": "9494f26d9f17ef146876772770385c07ad12da1f1f9ae0fd0a15e5552fbc8934",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/018.webp",
+      "size": 38222,
+      "sha256": "bf21c51c49ca2ef1e22fcb33182ba10183e364ddbad3b99cccdcea6db705aa3b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/019.webp",
+      "size": 39424,
+      "sha256": "88e1775dc87577944f64524bcf130c4f7621cebd99eb706464cf5a3a19ceb7c2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/020.webp",
+      "size": 67906,
+      "sha256": "64ab76fa0d64439eb14b916fde795c38d520ef2a860183933b69dc4d8d8b9b87",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/021.webp",
+      "size": 142428,
+      "sha256": "ea0ebe72eaca488976a8fd60ac8467259e58e470c141f4f6e26e2fad9ab2fed4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/022.webp",
+      "size": 99508,
+      "sha256": "3b188930439b1498b5a115ac0e3e504141849d0d7ec058312c2e71af61314f21",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/023.webp",
+      "size": 100846,
+      "sha256": "eb13fd23ab86be50109e797d3eaea27e6dd05a1fae52422d30ba4b6f23371dc1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/024.webp",
+      "size": 37302,
+      "sha256": "a3cc68a2e0daefe861908381e8360e474055ace93c6025fdf95c59daf6ac35b3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/025.webp",
+      "size": 187780,
+      "sha256": "813e9d813ebf4efcc9e7730f23d0773bb96be25a39fb3ab17a5f64bf12fff60f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/026.webp",
+      "size": 194932,
+      "sha256": "9e807b26e4adfb83fd0090b05f4198ea57cba7037a59787ae9da3b228e36ae36",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/027.webp",
+      "size": 53510,
+      "sha256": "3bbc81c132daef5fa4dd8ccae6173dd410cd547c2f5abb01efc5d2b5fb5a54c3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/028.webp",
+      "size": 32400,
+      "sha256": "830404011490a60d814d87c66d47941d52384d9d8fb2d7451677c66ffb4b658f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/029.webp",
+      "size": 36122,
+      "sha256": "613a0a5fcdc9e3bc9fa1b9a552cba9a6b93daf441610f5db3810a1144baa433f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/details/030.webp",
+      "size": 62530,
+      "sha256": "931a8eba12f06f55d75545a512f22beaf2c2c2368dda52b52210516dcb1de200",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/001.webp",
+      "size": 37486,
+      "sha256": "5189d776cc5bfb9a4e9366237ccc9d5915f424ca19b92b50aa84dd298350df58",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/002.webp",
+      "size": 51130,
+      "sha256": "f7a6cd313e9175243cb8352cb972343facc018180faaaf0e160fdc531c4dd935",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/003.webp",
+      "size": 64506,
+      "sha256": "c0c666af08ddde51db606e70ffc67f3802ede70b9a14a83bb5d7d08fc79629ad",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/004.webp",
+      "size": 64178,
+      "sha256": "8c5be2a19304c321a84eee6359322ba242fffab16211206aa643d2e29d196377",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/005.webp",
+      "size": 31926,
+      "sha256": "6b920aa89ae19f07b2ae6831b7d5ddcdc421cd7bc194b6bd3a04b6020730e166",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/006.webp",
+      "size": 24684,
+      "sha256": "add5a0f29a0831b8d259ca7ae3e759314c2dacc53f2bd9ef484de3dc6fdfbf18",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/007.webp",
+      "size": 123542,
+      "sha256": "32c545a540b294f3fe53ad5057a9ea775122bc9fcf35ae3ef92494e57ac71a44",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/008.webp",
+      "size": 26678,
+      "sha256": "cbb9d91d069aa5c3eded665e9045c46301f1e8ba4a7865c28a8a2ace995b52bf",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/009.webp",
+      "size": 80682,
+      "sha256": "2a73f1d4fce1435f51a01b03087c66df5f4873c4580264c31a2cd1a17b0e455e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/010.webp",
+      "size": 28300,
+      "sha256": "0cda2b6918b4f018788c2097722df8c2920a30c6e8a84b08ea77cf922bf47beb",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/011.webp",
+      "size": 29036,
+      "sha256": "8e3c9efb0404fe81fe39977a4b0715b1cf43cc60299897a70c0263390d0addfc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/012.webp",
+      "size": 78792,
+      "sha256": "acd8c124a3b5596eeddc2c7207415509325e524401c8e9598210ce53831fb557",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/013.webp",
+      "size": 139214,
+      "sha256": "8c6a2cb4855809470e6404a0561cbc8ebd1e00411b623ffbe2778ed2d59702d5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/014.webp",
+      "size": 33818,
+      "sha256": "b9710a26aec98daffc8522f4e9d7113d29695529bbfffd65a768326326c3e994",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/015.webp",
+      "size": 101866,
+      "sha256": "338320c5a720997189af2e393d26520d5a728592995649a5c82e23c0df08ebc9",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/016.webp",
+      "size": 76266,
+      "sha256": "bb922b8c498ec61fd0ecab3cf509603d9b29457503eb759917c677235e7ec0c8",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/017.webp",
+      "size": 25738,
+      "sha256": "cf20f5811ae6c467b9f33aa7188cd6772951bc027c65565112750a72fb01922a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/018.webp",
+      "size": 130218,
+      "sha256": "58335f8e6310011bc62772ab4ab5930b72a1ccad1803535be19dd646fee71d92",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/019.webp",
+      "size": 34598,
+      "sha256": "884fca88f967fc4d5d4ee92a845052ffb9ce7ff08ababdd12f0a1cecfe1b6c3f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/020.webp",
+      "size": 43484,
+      "sha256": "ae255dcc1f77369257dfcd55c89be2ebf5356060e67fc38d6bf3e77fa7af817a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/021.webp",
+      "size": 24188,
+      "sha256": "bae9de76c1fce174a6725ee0f86adf7cd88fdf2616a154187afba7dd961f5d93",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/022.webp",
+      "size": 118794,
+      "sha256": "e06a61a3dc7b68e95889b0297a8003d9c7dde65e9ce607b02159410a14897a4a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/023.webp",
+      "size": 101088,
+      "sha256": "1cb38e31dc9933f106103e4ff448edeec68d30951f0a7133415ef46dfc4b5a1c",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/024.webp",
+      "size": 42344,
+      "sha256": "2860c6fd9e2915af5bd0bc00de4e551b19c40ac73a56a73d03711c2c836c7c8d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/025.webp",
+      "size": 53586,
+      "sha256": "159f23178dcb30cefd841825b45b4126f262efd90c24eb7e83aeedcbf11e8c17",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/026.webp",
+      "size": 79606,
+      "sha256": "55de148347122d79e1fc3fdc4522d6ceea1cb5946d86441c72f9dfc3b91d8deb",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/027.webp",
+      "size": 67872,
+      "sha256": "8c911790bcf119503822a911a68ea28a5c7bde513286fccae8a5a1cbd8136a62",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/028.webp",
+      "size": 118318,
+      "sha256": "3c98f739f8ce0bf2d8477a981e20fdee89de399231dfe91a34fadcbd31cb22e0",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/029.webp",
+      "size": 39200,
+      "sha256": "aa4779934382d79f0b4fd52e2532012bfabc4caf42aad0325c186860e9d06335",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/030.webp",
+      "size": 24498,
+      "sha256": "65f88ab67ebd03c62a50f2b9c7440704a736564afc205336dd1edd2dd14b2b9b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/031.webp",
+      "size": 187146,
+      "sha256": "13cb5de0368a7d7326a89a340368ea727b894ee23a137afdd4893c1cc5c92b47",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/032.webp",
+      "size": 21842,
+      "sha256": "384d5a004e194892f27a238f5b9b81603f4f010b45583a6ef4b64965db4f31c0",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/033.webp",
+      "size": 176026,
+      "sha256": "173996da766e2c2f7a6f8c1fc89f7e6ce2a960ab46af3e9344817e3f6ec388b5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/034.webp",
+      "size": 110404,
+      "sha256": "db47181404758c89b5dcf48d17ebfd4407cbb60b66c30a820d6b8d3b493a55a4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/035.webp",
+      "size": 53440,
+      "sha256": "d7def8e659d9c19d3b587eedfe4b2de0c687cdd666a5c29611fa6c2498c5fdc2",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/036.webp",
+      "size": 36918,
+      "sha256": "9e545eb07b1f896f4b4024bc19581830e9dda67ae46688d38eb82a0794d53c8d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/037.webp",
+      "size": 111264,
+      "sha256": "3168f908d0d0853d51c50b28eceb833b55612ad6647536aa1da2554232ed96bc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/038.webp",
+      "size": 21842,
+      "sha256": "384d5a004e194892f27a238f5b9b81603f4f010b45583a6ef4b64965db4f31c0",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/explain/039.webp",
+      "size": 68628,
+      "sha256": "dc666392e04ede80cfb50a78baffef33e34b5b2558509a3e63ce01c5441acc4e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/001.webp",
+      "size": 18616,
+      "sha256": "52c4729af3d2c04f3895c1f56de814ef64b86a54735c6f75679f8bc77646a7ed",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/002.webp",
+      "size": 45728,
+      "sha256": "5af8ef31da1cdf68d7f628aa580c880e34adfb24839f13b24d74f928dacc07b3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/003.webp",
+      "size": 31532,
+      "sha256": "dbf4754f8a75edf65aaf4b4db6dd966cd2271e4e6e2114f21f709b909639048d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/004.webp",
+      "size": 74814,
+      "sha256": "69e12a2a821f75e31ed1c1aa90ee704eadf91e74cc48465ab219270c8647554c",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/005.webp",
+      "size": 223034,
+      "sha256": "f407f69ef81caea358c221079b97a99f5497a4d7ca6268c1dc74a0ef8732e8b7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/006.webp",
+      "size": 22336,
+      "sha256": "53fb9fa6cd38753f3a4fb12fb58a71db2ef4d750d8de20f15de6891910c7d03e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/007.webp",
+      "size": 77864,
+      "sha256": "5b9c3e026659afe5ebc3524137582be863a0271620c6f58d18983f266e63ff20",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/008.webp",
+      "size": 46314,
+      "sha256": "a2c229e46371c47fab91bd7632090b9055fe0710f41c2dca96c10fc7e6586653",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/009.webp",
+      "size": 55704,
+      "sha256": "c8c9ff077b2d4e272ffcf4366993cb2100fdaa44ca3e5438cdefaac9b44fdbe8",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/010.webp",
+      "size": 83360,
+      "sha256": "f6069edce6a7461b8dd0fa84df0a295df74e7df1405fb6edf6f88a6bd9fac0b7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/011.webp",
+      "size": 41970,
+      "sha256": "e5d8afa3fef034a0f21f9dd21cbe04be12a3896fac2b3383ce66c8f598176f55",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/012.webp",
+      "size": 33084,
+      "sha256": "3086402cfe49f207cfd2eb117b4aade09cb38a5fcd05f51371f7f5a06e9a5f90",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/013.webp",
+      "size": 53136,
+      "sha256": "2f6119a6986eb1dd484205cb02305264f28a52e02fa7dfe3ea9c937b2d7e82cd",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/014.webp",
+      "size": 59284,
+      "sha256": "7bb930010ae82382e415b13dd109f9e31fe1f54a15083fec5d8c6ae8295fcd7f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/015.webp",
+      "size": 61994,
+      "sha256": "b43f9f5cd54024e9d10481f4a727517c865abb1110a74498a3d30c6a6b7ad226",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/016.webp",
+      "size": 81072,
+      "sha256": "7aacbb8657f0ac91ac58d84167af1872298c4cea2f161b818ea89ecd6a105642",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/017.webp",
+      "size": 72528,
+      "sha256": "d6a5d034714535d17540a32e4d966265d172a3336bb0abe5c81ad687cceb2d82",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/018.webp",
+      "size": 55986,
+      "sha256": "055254c33293e2f6bdba6cfb6f1641bec847ff18d696688ba44d08f14fb28567",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/019.webp",
+      "size": 22558,
+      "sha256": "db41cdb92a4ad70769378780fb649653b7e0389eecb4b6e4ec112529f1ce9a08",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/020.webp",
+      "size": 34976,
+      "sha256": "d5098616ef72bda2726774f885075a9f74f90924cb9c87939064125536291b5a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/021.webp",
+      "size": 68388,
+      "sha256": "d22e97fc08fdfd3ebaed9be9edf9979929f029321b5cb7b4dd991414b22acb93",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/022.webp",
+      "size": 35818,
+      "sha256": "4a0f6521f7de5646d3424aa2e6fcbf59655a2495eb73417f787305977836c681",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/023.webp",
+      "size": 29614,
+      "sha256": "735cb87977a8b8425841b62d4da23fa3c93530ee48358b62ea4c9a5c56d331ec",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/024.webp",
+      "size": 115472,
+      "sha256": "46f82a1aeb62e59f62e2f539a30c261073659cb03b0a7085a1f41a8a23ca9281",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/025.webp",
+      "size": 92902,
+      "sha256": "cba67816fc3435fc2b7aad9724e48d1820951aea565b00942f7c15782bc7b839",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/026.webp",
+      "size": 162788,
+      "sha256": "b9cb892cd07a6071a19bd90dd8ec22fd230fb1fe6c95b0734c5c65895f475dcb",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/027.webp",
+      "size": 194744,
+      "sha256": "39e34cff104d28c937ca5343a609ae54adb8ce624c2b64af4c9b161ea6d0e0e5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/028.webp",
+      "size": 53446,
+      "sha256": "3bc0e74a5a4581137821f8ed6ba80f3691e1f899c288fbb80d0f63f84fd3f387",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/fish/029.webp",
+      "size": 59846,
+      "sha256": "c8d924ffe36a1b7d261ca77af18f50e680067ca12a6fef1edd66948544125978",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/001.webp",
+      "size": 29546,
+      "sha256": "aebcfb87863f0362ce7819dc61a3d3b45e290ef5b48a41f462b29513f60985b9",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/002.webp",
+      "size": 31050,
+      "sha256": "a7d7d8260bca3ac2b66a6e3feb8c54469b26122e75d0b6762046b8c3a4ce2f85",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/003.webp",
+      "size": 119536,
+      "sha256": "2fa2072f4f43ad756de88e09f897bdba2bbe43a466a3bac9b15c90efa6e646c4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/004.webp",
+      "size": 33466,
+      "sha256": "f8a9717cd1ed91b67105b2a956e0a4262f7c62fac40719b747ddef9ca48b012d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/005.webp",
+      "size": 89308,
+      "sha256": "28a74a29dae3b7bcdeb8356b42e1552533020cf6b516c0b4a493ecde1bc24cdb",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/006.webp",
+      "size": 13820,
+      "sha256": "5b92d575fb80dc26128152ee706e7e5f81c8b894d4871f0196f76d1ed10bc8ae",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/007.webp",
+      "size": 232262,
+      "sha256": "1c34f6fb5e6cb19496b707ab3855b33c0452ac61082517dcf3e793c943445e28",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/008.webp",
+      "size": 192110,
+      "sha256": "ee87c45191150da714624f929102da5f0a4bd9db15310c34b312ca30b807b09b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/009.webp",
+      "size": 44620,
+      "sha256": "f198e3338f15e2ff0e14c82186d7b261189d6b67f69644fb1957e018f2c1f4ce",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/010.webp",
+      "size": 32534,
+      "sha256": "e38c2e0b86d9e6a75b79f8628822cf5b564e467d8ecea603e365f2ecefbe242e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/011.webp",
+      "size": 56996,
+      "sha256": "9d56ac64e1e38dbd7c6275e0ded1ed62914aaecdac319a47060bf81f834cd1cd",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/012.webp",
+      "size": 32548,
+      "sha256": "b6864e03f31c89aa4f64d7e5907769b1d80df628c1e17453c98f9865b5fe2411",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/013.webp",
+      "size": 82170,
+      "sha256": "de0452eb88510b9fed19f00c714cf43caaeffcc5967ab06a52f64a6c9fcc8c72",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/014.webp",
+      "size": 37376,
+      "sha256": "07519cea14fca73b953d058db7868eeb679aa4353b8b56fd61027a1b9debf816",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/015.webp",
+      "size": 73390,
+      "sha256": "bc75aee7f57969b109d0b5b34a9d4abc29cdfaeb4b69f055f5104ed70e6324f7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/016.webp",
+      "size": 35496,
+      "sha256": "bd77f7b7fae2fb5320515d7467557593b21de993d5044d1cf2127bd38cd26e85",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/017.webp",
+      "size": 28964,
+      "sha256": "bc2a960173bd9762c9234667e37771fde973657e367eb5735d8216d8ed6fd9f6",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/018.webp",
+      "size": 40322,
+      "sha256": "4a2952e5e84219ab96f26265d85c5208163d803d79adb8e1bcc8b5fc7e70d19b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/019.webp",
+      "size": 29856,
+      "sha256": "4b2e6185282550e2469a0a7c1c0c1fdba1c8244199b4babe5cac4843c1183e34",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/020.webp",
+      "size": 38004,
+      "sha256": "38fdbeff5607014874e1afffd2ce2168b74da4fbedf3db2f61dcc90c87c26ee1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/021.webp",
+      "size": 120536,
+      "sha256": "4955073affa6284cf0f50081ae11d2d929d2d09f711ba12a55b96bd2e923657e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/022.webp",
+      "size": 64584,
+      "sha256": "65aa864952237192f542be7eb601752b7cec926cbf598bc156b1d63a874c407a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/023.webp",
+      "size": 57056,
+      "sha256": "08ed1204b3d449fd28f3e3586782f00f1a1586fc6e64b7f79ce3411f30ae718c",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/024.webp",
+      "size": 81142,
+      "sha256": "28c29e93fd824661efced60080f06f39cfb4459a4b4eb1ab77bb20b191606c69",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/025.webp",
+      "size": 76426,
+      "sha256": "6b1a1b6aa42fc12ddebca18d9eef4f32e6b1ae2299ce26502e5fb78674bd6469",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/026.webp",
+      "size": 75684,
+      "sha256": "ed480041f54235b3a9ddc567f5112b8fbc6338e651f43beb2867e9e78c666daa",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/027.webp",
+      "size": 86108,
+      "sha256": "17dfb49e737bcb87920d33f93a8c20ba85b5d8b238ea46a127957c45abf46877",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/028.webp",
+      "size": 77382,
+      "sha256": "aa9ac5fd02e8a007805127a43b6e75693ab1cd6204a458481b6860028c1ade35",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/029.webp",
+      "size": 91854,
+      "sha256": "ae744efe6133d7edb13ca398d565a522c43b14b57755b00aa69222cffcdb9357",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/030.webp",
+      "size": 32936,
+      "sha256": "fc924ca9e7bc2441e83b41fb25fd2969191bc4c71e26ea860c13c5b7aa90444f",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/031.webp",
+      "size": 165190,
+      "sha256": "f71b19bfb902b307082d0ef073cf1098f8429526b72b29e486f9508f3086e7d4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/032.webp",
+      "size": 176026,
+      "sha256": "173996da766e2c2f7a6f8c1fc89f7e6ce2a960ab46af3e9344817e3f6ec388b5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/033.webp",
+      "size": 53510,
+      "sha256": "3bbc81c132daef5fa4dd8ccae6173dd410cd547c2f5abb01efc5d2b5fb5a54c3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/034.webp",
+      "size": 31704,
+      "sha256": "26c2e30a085fc106b16bcad7c73bbd21d7f99ad7d1b8af8fb78169bacf055209",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/035.webp",
+      "size": 115932,
+      "sha256": "5f71a8b81fd9547c196b85f00c6050f4548b001963ab12313e615cee39fd4a8e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/036.webp",
+      "size": 26962,
+      "sha256": "c96245ca5bf8c36042cecdaa9d6da950b1dd4f1878cf9e5f61a6b9506a3bf812",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/037.webp",
+      "size": 205914,
+      "sha256": "74250cc08159cc9ffbc2db8b05e5828134e46558ca894be94253eb9f598bd0d7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/038.webp",
+      "size": 36406,
+      "sha256": "6ff1e28bc4aabe78fd0f8a17584bb3672c6127242ab0e3417e406e14fc87d6fc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/039.webp",
+      "size": 41184,
+      "sha256": "db420af2148a122fd352d10d65fd2383bace91b74b53efc208d3847d4d6b3b73",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/interstellar/040.webp",
+      "size": 72502,
+      "sha256": "1d973d7538c841636920f59ad367c951cf26053856e2c1eebf239d5c3a1c5a80",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/001.webp",
+      "size": 31268,
+      "sha256": "ac409ed145df4e6b1e99c7acf7abbd1c8029c78d709d844707a8022d3a6556b7",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/002.webp",
+      "size": 160650,
+      "sha256": "311f3cd349cb5f4cd753c2c786deb933cf22db9ed14cf43b8067d69d62208e13",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/003.webp",
+      "size": 16590,
+      "sha256": "3912a1593c65727f2428c5ad78efa2e28055058a7522aee4a7b59894565338e1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/004.webp",
+      "size": 23896,
+      "sha256": "731c0ec29a0bb48aec66bf027751ffa7bb9f8f575ff1f5879cd481dd91064a48",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/005.webp",
+      "size": 194932,
+      "sha256": "9e807b26e4adfb83fd0090b05f4198ea57cba7037a59787ae9da3b228e36ae36",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/006.webp",
+      "size": 53510,
+      "sha256": "3bbc81c132daef5fa4dd8ccae6173dd410cd547c2f5abb01efc5d2b5fb5a54c3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/objections/007.webp",
+      "size": 66360,
+      "sha256": "1291bda8b8e05a25d715bd7230544e02a84b6bc881a94ea74d9e6c5bdc0f763b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/001.webp",
+      "size": 33374,
+      "sha256": "d400dac15cef02e5d94c49802b7adaad9e6a24b2cc9ee2db8bc3e8ae80f7851b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/002.webp",
+      "size": 49376,
+      "sha256": "7af539d313406ea0add2db89a3b64c5f1b7766064460c659e0dcbd96e22cc3a5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/003.webp",
+      "size": 33822,
+      "sha256": "ee30a2e22b44db65efb12fb02683b32faaf8a14687b5465f40730daacd2c1864",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/004.webp",
+      "size": 49474,
+      "sha256": "1e030b9b7f7b4c7a0ac8c3a1ccaf834f1c167c6ea2d60a3a4f6375f1718f0301",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/005.webp",
+      "size": 19622,
+      "sha256": "e1f5cec50db37b78f1310037fe0c6df8fd3edc21282e6eaf1920cf9ea11ab195",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/006.webp",
+      "size": 72182,
+      "sha256": "c20d904c1db6288793ff6911b2388bfbe1c53382379f0c5be40ee5922439d1da",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/007.webp",
+      "size": 29266,
+      "sha256": "3ba83a2452243716fd08baa3d567570e174ccbf1434d9e45610f5349b95cdb82",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/008.webp",
+      "size": 71518,
+      "sha256": "ac01f6ef4a5b0b40c96c01f446fc97f05b917e5670abee3ee91a6296b2ab0695",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/009.webp",
+      "size": 171610,
+      "sha256": "e4daa6cf8e9f7b92207b52e60e0c37cb89288ce74c9c89ac6808615fd1e06799",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/010.webp",
+      "size": 36138,
+      "sha256": "dcbf9f6eb9db87d3d54f4b550bec240755d4cd99b15d223e2c27586d4f88c409",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/011.webp",
+      "size": 214178,
+      "sha256": "4d58eb0bfcfb4bef73cfb62f3f5ebad4d36a5f6f0b686072114c553644d3fc44",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/012.webp",
+      "size": 33888,
+      "sha256": "7e4a15c9349de3602e43fe2b9c87213356c0d89f0aaac4d48e7380afd6ef28d1",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/013.webp",
+      "size": 70788,
+      "sha256": "339e389b9d6b3249bad022d5f3efc244e4717927ed098fa14dc23f81d28309fb",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/014.webp",
+      "size": 39440,
+      "sha256": "22d6919765044e213de4e5e31ba13cea47857dee17a65b7988cd12c2247f743b",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/015.webp",
+      "size": 26014,
+      "sha256": "5c98131ea47e3e74aca38a3911afa7abfa10260839b68372f899b0d98d39293e",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/016.webp",
+      "size": 63128,
+      "sha256": "3000a151767e95f675174f84ffa60fef076440ce562e666093e7f117d01c03cd",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/017.webp",
+      "size": 36564,
+      "sha256": "a8e04a5689ca85a73b60b8daad2e06d83b2100229d2ed19f8efd36c1636254ff",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/018.webp",
+      "size": 86680,
+      "sha256": "4d53857640cc74f4a78f4cf3d241484db59b165c61dfde5deb4b0d0e3e04cb02",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/019.webp",
+      "size": 102504,
+      "sha256": "dd916d7632132dadd00393c92b5826dfeddeb78b566282590b8ceef55e4e71f4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/020.webp",
+      "size": 117454,
+      "sha256": "fa3e0aa3ad137976630264b92fb19f86f52b8ad051c11b2c23497c6e0f09ec03",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/021.webp",
+      "size": 85552,
+      "sha256": "fbbdd75bbb0baf8d1aa23c4bfc9a96c50d0d918589f2ad40c7f33de4dc7746fc",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/022.webp",
+      "size": 214878,
+      "sha256": "758fc7693b0915f3ea92fb753b5c88673d696e3802d266533a936eb0ecc297f3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/023.webp",
+      "size": 63578,
+      "sha256": "be0c6f43da77d38974d65f61c1e5feb217a55a04653b6e00a0b40fdde1d64722",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/024.webp",
+      "size": 180926,
+      "sha256": "01ba4ebda3af62bfe8509d844055a8aeb2361cd3ad7231f29f2fed057b84042a",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/025.webp",
+      "size": 165190,
+      "sha256": "f71b19bfb902b307082d0ef073cf1098f8429526b72b29e486f9508f3086e7d4",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/026.webp",
+      "size": 194932,
+      "sha256": "9e807b26e4adfb83fd0090b05f4198ea57cba7037a59787ae9da3b228e36ae36",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/027.webp",
+      "size": 53510,
+      "sha256": "3bbc81c132daef5fa4dd8ccae6173dd410cd547c2f5abb01efc5d2b5fb5a54c3",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/028.webp",
+      "size": 26962,
+      "sha256": "c96245ca5bf8c36042cecdaa9d6da950b1dd4f1878cf9e5f61a6b9506a3bf812",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/029.webp",
+      "size": 207324,
+      "sha256": "0934a215045ec059bdc68ec3ed43aacc4c77d89e7c70b146c3ed7457575fdd0d",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/030.webp",
+      "size": 36110,
+      "sha256": "9966f23345999b10f4d54ab04e7e3fa1ab3192ca7e2c7561f208bcd3fd7d77c5",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/031.webp",
+      "size": 112170,
+      "sha256": "d0318acac36e6c692f361034096fe963f30576da14351acbeb0eb74537e59786",
+      "changed": true
+    },
+    {
+      "path": "assets/courses/simple/032.webp",
+      "size": 57370,
+      "sha256": "1751d2a80f14026744c2ef7116fdaf09289f7929cc3fc1f4f3c831093ea6c8d4",
+      "changed": true
+    },
+    {
+      "path": "assets/evidence/fuji-cover.jpg",
+      "size": 102158,
+      "sha256": "8a534618acf211a584621246e0545d99751fd24333893428ee616bb10a9f3025",
+      "changed": false
+    },
+    {
+      "path": "assets/evidence/ppt-ai-structure.jpg",
+      "size": 138721,
+      "sha256": "89ea414668cb511ee5ca664bad70e45d430081a400bf7a441036b1ce717fa5cb",
+      "changed": false
+    },
+    {
+      "path": "assets/evidence/tool-export.jpg",
+      "size": 4591,
+      "sha256": "3968806ff3b2425686c2801e64051f5bc6e596824bd91037253cfde165fb9a5a",
+      "changed": false
+    },
+    {
+      "path": "assets/evidence/tool-select.jpg",
+      "size": 8310,
+      "sha256": "9b052920501759b7f1a7e32df6054d91d3201b8002de90d2076daa53d4349418",
+      "changed": false
+    },
+    {
+      "path": "assets/evidence/tool-transcribe.jpg",
+      "size": 34635,
+      "sha256": "78d176e5c10d1686717f10ca841fd9502993b414d128a228eb670d463e04bc09",
+      "changed": false
+    },
+    {
+      "path": "assets/favicon.svg",
+      "size": 210,
+      "sha256": "91bd3d40c33e54605b97f4f5f57601dc76adde0b8399088b9c7aa1a7a22c109a",
+      "changed": true
+    },
+    {
+      "path": "assets/full/allin-award-0508.jpg",
+      "size": 188895,
+      "sha256": "f689c0366ce01d06f767c0ae8285c65d2288d4128f5f9c3694197f74297dceff",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-award-0512.jpg",
+      "size": 212634,
+      "sha256": "aea1a0cf80c524ba6d15275b30bb244b8c13e3ac12efe89410ba39833f133daa",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-award-0616.jpg",
+      "size": 104737,
+      "sha256": "6a6a6363e290d02d13c52b639deb9824f096a9e32ae15ee695f4edcedcfdc1b1",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-award-0731.jpg",
+      "size": 214278,
+      "sha256": "674f30fd264741df53b404ba1c592e51b733a1b81305cdbff1368ee9b6011c74",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-award-0807.jpg",
+      "size": 189083,
+      "sha256": "67111503e082cd0c9627f171e8894eb997df704860defd987c7292ec87344f95",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-award-ad.jpg",
+      "size": 177964,
+      "sha256": "70df29282df4cd5d7be4a34cd51d5efa1cb79baa067c2a5f4a8af1c1b125b3d8",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-award-explain.jpg",
+      "size": 278189,
+      "sha256": "a09dc161ab9be8973ec589276cdbf2cafc08460cc5b237c8fbe965875779f0d6",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-fish.jpg",
+      "size": 168690,
+      "sha256": "e33a37a01ad66bf4a5362950176d9ca623d932b916fceccb88f624d2b12844fd",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-live.jpg",
+      "size": 282524,
+      "sha256": "b8588711a842c4b53872a46d5df1f40b31bd37248d33fd108f56ee4a0cd43fab",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-profile.jpg",
+      "size": 244577,
+      "sha256": "e6b5672e076eb684565603ea427a4ee79f7130d4bc9a3fb1a694887e5cf29da8",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-review.jpg",
+      "size": 135711,
+      "sha256": "9be85d005406ddc7eec81aa6d051c00859cef71183b1a3637823e999f647dabe",
+      "changed": false
+    },
+    {
+      "path": "assets/full/allin-works.jpg",
+      "size": 327621,
+      "sha256": "095762cef7e631d7b139f5dd802409c289acc98efb760d38d0117651c745b996",
+      "changed": false
+    },
+    {
+      "path": "assets/full/boshang-backend.jpg",
+      "size": 147076,
+      "sha256": "0ce10e006cdce4fdb6ddc37132e3fc07dd67425a19f43a2f3f9c4ad256c392a8",
+      "changed": false
+    },
+    {
+      "path": "assets/full/boshang-orders.jpg",
+      "size": 132052,
+      "sha256": "56acbca2b290285af42b04c1fc29540f95bf8dca386db71908b40ba99fb346a6",
+      "changed": false
+    },
+    {
+      "path": "assets/full/boshang-profile.jpg",
+      "size": 249230,
+      "sha256": "f7c653d5c7a03750efcda32b0cc844bb94ce4f134dec0707875a2f736ebb99fb",
+      "changed": false
+    },
+    {
+      "path": "assets/full/boshang-revenue.jpg",
+      "size": 36427,
+      "sha256": "d11e55c0de1b0b09f13ddd7351ee8f6fb540a47fba8c90540219357f92c8d7f7",
+      "changed": false
+    },
+    {
+      "path": "assets/full/boshang-trend.jpg",
+      "size": 92560,
+      "sha256": "d1f7bac174d7bbf4aa295f1fef2c946e4da485aac0e0ac20b02bb964126ab106",
+      "changed": false
+    },
+    {
+      "path": "assets/full/photo-profile.jpg",
+      "size": 270415,
+      "sha256": "ddcf09cb8a45afd2fff5fd65883ea6807713d572f5e82196d40cd6905c06906b",
+      "changed": false
+    },
+    {
+      "path": "assets/full/photo-series.jpg",
+      "size": 276926,
+      "sha256": "e7474e30f69ee532cf3ca447996d31d60fa32c3213290935613b6025339996aa",
+      "changed": false
+    },
+    {
+      "path": "assets/full/photo-settlement.jpg",
+      "size": 93831,
+      "sha256": "691e2515623a2983bb2d7bca5f31f777951deaba20c92bc2ae1911b525ce593f",
+      "changed": false
+    },
+    {
+      "path": "assets/full/stage-badge.jpg",
+      "size": 646630,
+      "sha256": "4034589a8e90e65530e8b3ee07d92728fe1d4c938c8dd476aa7b4da0787f45b2",
+      "changed": false
+    },
+    {
+      "path": "assets/full/stage-team.jpg",
+      "size": 556459,
+      "sha256": "e4d46c492176c26a2af64a20a910e2d9ccad11357e60bc103a2ad2a6d1bea3b0",
+      "changed": false
+    },
+    {
+      "path": "assets/full/stage-wide.jpg",
+      "size": 785379,
+      "sha256": "805880e8d6d95f349d5d970dbc44700940c4d9c1eb51af59113f4e945bf4b8c9",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/ad.pdf",
+      "size": 6732279,
+      "sha256": "fe69ce54d3895cfc4949b82fcce832ed29ef2f9c849b68ae29c5e208c0aaec16",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/ai-workflow.pdf",
+      "size": 6354190,
+      "sha256": "e0a2055cf21cac3913d419dfdd2a71b39b5b30c21891305a3792264485694c1a",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/details.pdf",
+      "size": 4280995,
+      "sha256": "30c65f18f151559fa140df9483c8904d2d5f2ca1e9f86188729d544caf4d5930",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/explain.pdf",
+      "size": 6409584,
+      "sha256": "ae6714a01eb131b0c7cece375bb8c136545411242f09f58e5a15f48e142424ea",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/fish.pdf",
+      "size": 3703867,
+      "sha256": "30bb5230ac2c1b5c08fb357d13bed6145d3e8b1246a32b7f4fd1d9f1e05e9f7a",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/interstellar.pdf",
+      "size": 6244128,
+      "sha256": "def95c2bcdc5353cc16fde1cab867f54874f9783c31c524e713207bf01f3cd51",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/objections.pdf",
+      "size": 1096856,
+      "sha256": "1422cdcaae0b832ae42d87ea69d743ff695a91b3ea89a93503aa022d1801259d",
+      "changed": false
+    },
+    {
+      "path": "assets/pdfs/simple.pdf",
+      "size": 6435245,
+      "sha256": "12c85023d6cb41c0abd070b438252942a9ace6cf22a8fd60e5668383809d3536",
+      "changed": false
+    },
+    {
+      "path": "assets/portrait-1200.jpg",
+      "size": 115247,
+      "sha256": "ca210b7776280cd3f7599ccf7b5d9311163cf1243ea0e03124303fd28a62fbf8",
+      "changed": false
+    },
+    {
+      "path": "assets/portrait-2400.jpg",
+      "size": 353863,
+      "sha256": "39857e8420a8981c2bddda8cdd3501a3814c2c213f250464ffe2e1ad75c7280f",
+      "changed": false
+    },
+    {
+      "path": "assets/previews/boshang.webp",
+      "size": 62874,
+      "sha256": "810cbff9d6d5750523c84d81560d663048814f925bd0013d5089821b978f506f",
+      "changed": false
+    },
+    {
+      "path": "assets/previews/creator.webp",
+      "size": 63112,
+      "sha256": "fad93f730bbc3def33b067356cbdfdebeee28557e8648e239a8c602000374fe0",
+      "changed": false
+    },
+    {
+      "path": "assets/previews/fuji.webp",
+      "size": 22580,
+      "sha256": "060608e93d758380e6ee0dfbe3c58917f2b981b615858dd4748c331567c93ae9",
+      "changed": false
+    },
+    {
+      "path": "assets/previews/hero-desktop.webp",
+      "size": 80428,
+      "sha256": "0c101d58d9b8118815862acecda8dc0f53df97bc396e7b11ed56bb81fed3fcdf",
+      "changed": false
+    },
+    {
+      "path": "assets/previews/hero-mobile.webp",
+      "size": 36464,
+      "sha256": "20540e175235858a6a3f56a81d8df693ea4ac9dd0e2faeb1da8792ed1820b30b",
+      "changed": false
+    },
+    {
+      "path": "cases/allin/index.html",
+      "size": 50047,
+      "sha256": "03fcd1a73d41f8e6067430d02bf94f20ac8f5a4ee0621310f752099f263fd529",
+      "changed": true
+    },
+    {
+      "path": "cases/boshang/index.html",
+      "size": 13659,
+      "sha256": "df654bb8c9c7afe4d2cc85e54e2d391ff7d56588f67d74dba6fba85aa6334c29",
+      "changed": true
+    },
+    {
+      "path": "cases/stage/index.html",
+      "size": 9893,
+      "sha256": "cd815653e937da6562842321b78b2db1d6bfb582d89b884bf5afb0efcc8f4d8e",
+      "changed": true
+    },
+    {
+      "path": "cases.css",
+      "size": 17384,
+      "sha256": "615d5802dd2fe9d860c2d281ca1eb23b53f05cd609af2389813e5eb6a80f01a9",
+      "changed": true
+    },
+    {
+      "path": "creator/index.html",
+      "size": 31128,
+      "sha256": "54b44f373ade52186393343fe58d0a066748adddfc20bf18d0aa94cc6416f02e",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/app.js",
+      "size": 27799,
+      "sha256": "c6b9043786d5b0de2be59d12338a7e0f899cfb4b28c04b0475bcb0e3dc76c29c",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/camera-model.js",
+      "size": 24980,
+      "sha256": "5cc578c768dc8952f62ff81c42d2b08d7b1b9c5ce3c336d4ce8dea454694429a",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/index.html",
+      "size": 9430,
+      "sha256": "60aad4fc221528898143c32211ccb8cae938560123c406ba1cb587beb847084e",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/style.css",
+      "size": 34260,
+      "sha256": "7495273cfe33385a4915ae6f162f4b4b4b449eb87f4f9c89ebb985af52b04155",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/vendor/OrbitControls.js",
+      "size": 33657,
+      "sha256": "00021f896fee7accad035ada2b72abd9e12f21de349896576e8fd75d9542989e",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/vendor/THREE-LICENSE.txt",
+      "size": 1102,
+      "sha256": "f57eb9202058667d12aebd854fe8a86d6feaeab51078180df5615bfdbd5cff05",
+      "changed": true
+    },
+    {
+      "path": "demos/fuji/vendor/three.module.js",
+      "size": 1369252,
+      "sha256": "da7f8aecb0b1e4a55e820cce5dc5a5a8eb13dc379758f215e8fb07937be7a6a3",
+      "changed": true
+    },
+    {
+      "path": "index.html",
+      "size": 29079,
+      "sha256": "80bf15ed03b04fd430894bf02b4248d37fe5afc43afe2027e09328bbba0942a2",
+      "changed": true
+    },
+    {
+      "path": "motion.css",
+      "size": 11580,
+      "sha256": "5642c075c19059703603be981b8ffb488eccd6b79a2e9568dedad67c850eba59",
+      "changed": true
+    },
+    {
+      "path": "motion.js",
+      "size": 3201,
+      "sha256": "2371ce0051121457d2968fb8b7adf9cc820fc8a12d7e356c0d42e8a2a7a70366",
+      "changed": true
+    },
+    {
+      "path": "projects/index.html",
+      "size": 13597,
+      "sha256": "8d2198b7d2b49d01ee2c15d1cbd253bd2a413d1f26ee6eec8911e6796078ed67",
+      "changed": true
+    },
+    {
+      "path": "refinement.css",
+      "size": 54112,
+      "sha256": "96726c2c0e1278b01685aaf9ef97c16bd7ec98ad8d6c19052ad1cc3cdc2c9be9",
+      "changed": true
+    },
+    {
+      "path": "resume.css",
+      "size": 11864,
+      "sha256": "f47e7b1307d3e610ac2fca21821a380459d4c8301d3f0e458fcaa7e609d62c0f",
+      "changed": true
+    },
+    {
+      "path": "robots.txt",
+      "size": 23,
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+      "changed": false
+    },
+    {
+      "path": "styles.css",
+      "size": 19274,
+      "sha256": "ce07934d8d011680f4e973d694cbdbe92faaeda3b0f1ed4d5c4e876596e99d4c",
+      "changed": true
+    },
+    {
+      "path": "_headers",
+      "size": 137,
+      "sha256": "0132510e2b2ce249c0f8088905c42062e5ce3722d6a4843554ec608cf79d587c",
+      "changed": true
+    }
+  ],
+  "batches": [
+    [
+      "app.js",
+      "art.css",
+      "assets/courses/ad/001.webp",
+      "assets/courses/ad/002.webp",
+      "assets/courses/ad/003.webp",
+      "assets/courses/ad/004.webp",
+      "assets/courses/ad/005.webp",
+      "assets/courses/ad/006.webp",
+      "assets/courses/ad/007.webp",
+      "assets/courses/ad/008.webp",
+      "assets/courses/ad/009.webp",
+      "assets/courses/ad/010.webp",
+      "assets/courses/ad/011.webp",
+      "assets/courses/ad/012.webp",
+      "assets/courses/ad/013.webp",
+      "assets/courses/ad/014.webp",
+      "assets/courses/ad/015.webp",
+      "assets/courses/ad/016.webp",
+      "assets/courses/ad/017.webp",
+      "assets/courses/ad/018.webp",
+      "assets/courses/ad/019.webp",
+      "assets/courses/ad/020.webp",
+      "assets/courses/ad/021.webp",
+      "assets/courses/ad/022.webp",
+      "assets/courses/ad/023.webp",
+      "assets/courses/ad/024.webp",
+      "assets/courses/ad/025.webp",
+      "assets/courses/ad/026.webp",
+      "assets/courses/ad/027.webp",
+      "assets/courses/ad/028.webp",
+      "assets/courses/ad/029.webp",
+      "assets/courses/ad/030.webp",
+      "assets/courses/ad/031.webp",
+      "assets/courses/ad/032.webp",
+      "assets/courses/ad/033.webp",
+      "assets/courses/ad/034.webp",
+      "assets/courses/ad/035.webp",
+      "assets/courses/ad/036.webp",
+      "assets/courses/ai-workflow/001.webp",
+      "assets/courses/ai-workflow/002.webp",
+      "assets/courses/ai-workflow/003.webp",
+      "assets/courses/ai-workflow/004.webp",
+      "assets/courses/ai-workflow/005.webp",
+      "assets/courses/ai-workflow/006.webp",
+      "assets/courses/ai-workflow/007.webp",
+      "assets/courses/ai-workflow/008.webp",
+      "assets/courses/ai-workflow/009.webp",
+      "assets/courses/ai-workflow/010.webp",
+      "assets/courses/ai-workflow/011.webp",
+      "assets/courses/ai-workflow/012.webp",
+      "assets/courses/ai-workflow/013.webp",
+      "assets/courses/ai-workflow/014.webp",
+      "assets/courses/ai-workflow/015.webp",
+      "assets/courses/ai-workflow/016.webp",
+      "assets/courses/ai-workflow/017.webp",
+      "assets/courses/ai-workflow/018.webp",
+      "assets/courses/ai-workflow/019.webp",
+      "assets/courses/ai-workflow/020.webp",
+      "assets/courses/ai-workflow/021.webp",
+      "assets/courses/ai-workflow/022.webp",
+      "assets/courses/ai-workflow/023.webp",
+      "assets/courses/ai-workflow/024.webp",
+      "assets/courses/ai-workflow/025.webp",
+      "assets/courses/ai-workflow/026.webp",
+      "assets/courses/ai-workflow/027.webp",
+      "assets/courses/ai-workflow/028.webp",
+      "assets/courses/ai-workflow/029.webp",
+      "assets/courses/ai-workflow/030.webp",
+      "assets/courses/ai-workflow/031.webp",
+      "assets/courses/ai-workflow/032.webp",
+      "assets/courses/ai-workflow/033.webp",
+      "assets/courses/ai-workflow/034.webp",
+      "assets/courses/ai-workflow/035.webp",
+      "assets/courses/ai-workflow/036.webp",
+      "assets/courses/ai-workflow/037.webp",
+      "assets/courses/ai-workflow/038.webp",
+      "assets/courses/ai-workflow/039.webp",
+      "assets/courses/ai-workflow/040.webp",
+      "assets/courses/ai-workflow/041.webp",
+      "assets/courses/ai-workflow/042.webp"
+    ],
+    [
+      "assets/courses/ai-workflow/043.webp",
+      "assets/courses/ai-workflow/044.webp",
+      "assets/courses/ai-workflow/045.webp",
+      "assets/courses/ai-workflow/046.webp",
+      "assets/courses/ai-workflow/047.webp",
+      "assets/courses/ai-workflow/048.webp",
+      "assets/courses/details/001.webp",
+      "assets/courses/details/002.webp",
+      "assets/courses/details/003.webp",
+      "assets/courses/details/004.webp",
+      "assets/courses/details/005.webp",
+      "assets/courses/details/006.webp",
+      "assets/courses/details/007.webp",
+      "assets/courses/details/008.webp",
+      "assets/courses/details/009.webp",
+      "assets/courses/details/010.webp",
+      "assets/courses/details/011.webp",
+      "assets/courses/details/012.webp",
+      "assets/courses/details/013.webp",
+      "assets/courses/details/014.webp",
+      "assets/courses/details/015.webp",
+      "assets/courses/details/016.webp",
+      "assets/courses/details/017.webp",
+      "assets/courses/details/018.webp",
+      "assets/courses/details/019.webp",
+      "assets/courses/details/020.webp",
+      "assets/courses/details/021.webp",
+      "assets/courses/details/022.webp",
+      "assets/courses/details/023.webp",
+      "assets/courses/details/024.webp",
+      "assets/courses/details/025.webp",
+      "assets/courses/details/026.webp",
+      "assets/courses/details/027.webp",
+      "assets/courses/details/028.webp",
+      "assets/courses/details/029.webp",
+      "assets/courses/details/030.webp",
+      "assets/courses/explain/001.webp",
+      "assets/courses/explain/002.webp",
+      "assets/courses/explain/003.webp",
+      "assets/courses/explain/004.webp",
+      "assets/courses/explain/005.webp",
+      "assets/courses/explain/006.webp",
+      "assets/courses/explain/007.webp",
+      "assets/courses/explain/008.webp",
+      "assets/courses/explain/009.webp",
+      "assets/courses/explain/010.webp",
+      "assets/courses/explain/011.webp",
+      "assets/courses/explain/012.webp",
+      "assets/courses/explain/013.webp",
+      "assets/courses/explain/014.webp",
+      "assets/courses/explain/015.webp",
+      "assets/courses/explain/016.webp",
+      "assets/courses/explain/017.webp",
+      "assets/courses/explain/018.webp",
+      "assets/courses/explain/019.webp",
+      "assets/courses/explain/020.webp",
+      "assets/courses/explain/021.webp",
+      "assets/courses/explain/022.webp",
+      "assets/courses/explain/023.webp",
+      "assets/courses/explain/024.webp",
+      "assets/courses/explain/025.webp",
+      "assets/courses/explain/026.webp",
+      "assets/courses/explain/027.webp",
+      "assets/courses/explain/028.webp",
+      "assets/courses/explain/029.webp",
+      "assets/courses/explain/030.webp",
+      "assets/courses/explain/031.webp",
+      "assets/courses/explain/032.webp",
+      "assets/courses/explain/033.webp",
+      "assets/courses/explain/034.webp",
+      "assets/courses/explain/035.webp",
+      "assets/courses/explain/036.webp",
+      "assets/courses/explain/037.webp",
+      "assets/courses/explain/038.webp",
+      "assets/courses/explain/039.webp",
+      "assets/courses/fish/001.webp",
+      "assets/courses/fish/002.webp",
+      "assets/courses/fish/003.webp",
+      "assets/courses/fish/004.webp",
+      "assets/courses/fish/005.webp"
+    ],
+    [
+      "assets/courses/fish/006.webp",
+      "assets/courses/fish/007.webp",
+      "assets/courses/fish/008.webp",
+      "assets/courses/fish/009.webp",
+      "assets/courses/fish/010.webp",
+      "assets/courses/fish/011.webp",
+      "assets/courses/fish/012.webp",
+      "assets/courses/fish/013.webp",
+      "assets/courses/fish/014.webp",
+      "assets/courses/fish/015.webp",
+      "assets/courses/fish/016.webp",
+      "assets/courses/fish/017.webp",
+      "assets/courses/fish/018.webp",
+      "assets/courses/fish/019.webp",
+      "assets/courses/fish/020.webp",
+      "assets/courses/fish/021.webp",
+      "assets/courses/fish/022.webp",
+      "assets/courses/fish/023.webp",
+      "assets/courses/fish/024.webp",
+      "assets/courses/fish/025.webp",
+      "assets/courses/fish/026.webp",
+      "assets/courses/fish/027.webp",
+      "assets/courses/fish/028.webp",
+      "assets/courses/fish/029.webp",
+      "assets/courses/interstellar/001.webp",
+      "assets/courses/interstellar/002.webp",
+      "assets/courses/interstellar/003.webp",
+      "assets/courses/interstellar/004.webp",
+      "assets/courses/interstellar/005.webp",
+      "assets/courses/interstellar/006.webp",
+      "assets/courses/interstellar/007.webp",
+      "assets/courses/interstellar/008.webp",
+      "assets/courses/interstellar/009.webp",
+      "assets/courses/interstellar/010.webp",
+      "assets/courses/interstellar/011.webp",
+      "assets/courses/interstellar/012.webp",
+      "assets/courses/interstellar/013.webp",
+      "assets/courses/interstellar/014.webp",
+      "assets/courses/interstellar/015.webp",
+      "assets/courses/interstellar/016.webp",
+      "assets/courses/interstellar/017.webp",
+      "assets/courses/interstellar/018.webp",
+      "assets/courses/interstellar/019.webp",
+      "assets/courses/interstellar/020.webp",
+      "assets/courses/interstellar/021.webp",
+      "assets/courses/interstellar/022.webp",
+      "assets/courses/interstellar/023.webp",
+      "assets/courses/interstellar/024.webp",
+      "assets/courses/interstellar/025.webp",
+      "assets/courses/interstellar/026.webp",
+      "assets/courses/interstellar/027.webp",
+      "assets/courses/interstellar/028.webp",
+      "assets/courses/interstellar/029.webp",
+      "assets/courses/interstellar/030.webp",
+      "assets/courses/interstellar/031.webp",
+      "assets/courses/interstellar/032.webp",
+      "assets/courses/interstellar/033.webp",
+      "assets/courses/interstellar/034.webp",
+      "assets/courses/interstellar/035.webp",
+      "assets/courses/interstellar/036.webp",
+      "assets/courses/interstellar/037.webp",
+      "assets/courses/interstellar/038.webp",
+      "assets/courses/interstellar/039.webp",
+      "assets/courses/interstellar/040.webp",
+      "assets/courses/objections/001.webp",
+      "assets/courses/objections/002.webp",
+      "assets/courses/objections/003.webp",
+      "assets/courses/objections/004.webp",
+      "assets/courses/objections/005.webp",
+      "assets/courses/objections/006.webp",
+      "assets/courses/objections/007.webp",
+      "assets/courses/simple/001.webp",
+      "assets/courses/simple/002.webp",
+      "assets/courses/simple/003.webp",
+      "assets/courses/simple/004.webp",
+      "assets/courses/simple/005.webp",
+      "assets/courses/simple/006.webp",
+      "assets/courses/simple/007.webp",
+      "assets/courses/simple/008.webp",
+      "assets/courses/simple/009.webp"
+    ],
+    [
+      "assets/courses/simple/010.webp",
+      "assets/courses/simple/011.webp",
+      "assets/courses/simple/012.webp",
+      "assets/courses/simple/013.webp",
+      "assets/courses/simple/014.webp",
+      "assets/courses/simple/015.webp",
+      "assets/courses/simple/016.webp",
+      "assets/courses/simple/017.webp",
+      "assets/courses/simple/018.webp",
+      "assets/courses/simple/019.webp",
+      "assets/courses/simple/020.webp",
+      "assets/courses/simple/021.webp",
+      "assets/courses/simple/022.webp",
+      "assets/courses/simple/023.webp",
+      "assets/courses/simple/024.webp",
+      "assets/courses/simple/025.webp",
+      "assets/courses/simple/026.webp",
+      "assets/courses/simple/027.webp",
+      "assets/courses/simple/028.webp",
+      "assets/courses/simple/029.webp",
+      "assets/courses/simple/030.webp",
+      "assets/courses/simple/031.webp",
+      "assets/courses/simple/032.webp",
+      "assets/favicon.svg",
+      "cases/allin/index.html",
+      "cases/boshang/index.html",
+      "cases/stage/index.html",
+      "cases.css",
+      "creator/index.html",
+      "demos/fuji/app.js",
+      "demos/fuji/camera-model.js",
+      "demos/fuji/index.html",
+      "demos/fuji/style.css",
+      "demos/fuji/vendor/OrbitControls.js",
+      "demos/fuji/vendor/THREE-LICENSE.txt",
+      "demos/fuji/vendor/three.module.js",
+      "index.html",
+      "motion.css",
+      "motion.js",
+      "projects/index.html",
+      "refinement.css",
+      "resume.css",
+      "styles.css",
+      "_headers"
+    ]
+  ]
+}
