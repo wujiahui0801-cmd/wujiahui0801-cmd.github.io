@@ -1,5 +1,5 @@
 {
-  "release": "85093640b925",
+  "release": "84016833014a",
   "files": [
     {
       "path": ".nojekyll",
@@ -9,8 +9,8 @@
     },
     {
       "path": "app.js",
-      "size": 14475,
-      "sha256": "b9a1e7715ad8c3f5495935ed35582a88912ea5b545841e586d35a3872d4c5c56",
+      "size": 14351,
+      "sha256": "98383409f7d179254e7d266695806d3f61bfb715a9de2dd0089c58400af401db",
       "changed": true
     },
     {
@@ -1851,20 +1851,20 @@
     },
     {
       "path": "cases/allin/index.html",
-      "size": 50047,
-      "sha256": "26e0a5544a5b2e01d5c23dc88d8d2d925214e66ecf4ae2adffedd555680acaf2",
+      "size": 62957,
+      "sha256": "37c9db248da22a9497535d4bb2b33700f459ff89bd88407128ceb63419b6a7e2",
       "changed": true
     },
     {
       "path": "cases/boshang/index.html",
-      "size": 13659,
-      "sha256": "8ecd1ebb76be0f58b4f49039b3c1373b09b5e145dec5e192e6b42e319d065467",
+      "size": 26569,
+      "sha256": "1d6aaa6713074d2390b078fd7db87448ce88cd82b09484cf56809bdbe4a8c238",
       "changed": true
     },
     {
       "path": "cases/stage/index.html",
-      "size": 9893,
-      "sha256": "c53baa2ce23ae8289ae1baf567f2ea5068169ffed849e56890ba8ea4f83fc654",
+      "size": 22803,
+      "sha256": "c073ff6728c7b122fc6124af9c03c1d8093005b2323ebe8022aca5b6a8612190",
       "changed": true
     },
     {
@@ -1875,8 +1875,8 @@
     },
     {
       "path": "creator/index.html",
-      "size": 31128,
-      "sha256": "882704309d7c147296b9614ef8d5e2af0cdcdff1f0a14e7f89d9dd1eb08440ef",
+      "size": 44038,
+      "sha256": "1924dfaeef9036d476879df1050773c3375e5b021ee9c4d8e8a9767ae8c014ca",
       "changed": true
     },
     {
@@ -1922,9 +1922,15 @@
       "changed": true
     },
     {
+      "path": "image-preload.js",
+      "size": 5309,
+      "sha256": "341d32e9342806b1448ed15837ebdac394404897833e66fa4a07cda11d47be7b",
+      "changed": true
+    },
+    {
       "path": "index.html",
-      "size": 30664,
-      "sha256": "33c908ae66539fa65defe898b465a88086d23473dbceb1070135957158461da8",
+      "size": 43622,
+      "sha256": "e2a0dedd261d349adfeaaf513536c5e2734095e24ffec5f775154e7b0ec91599",
       "changed": true
     },
     {
@@ -1941,8 +1947,8 @@
     },
     {
       "path": "projects/index.html",
-      "size": 13597,
-      "sha256": "36d740c2c8ff0a6111c861727db0f9d18952b4146f3b896851cd66fb91eea052",
+      "size": 26507,
+      "sha256": "4bc70010e4edc05bf6d4cffd429834ea436b621b23b1cfc87af673316cd87bec",
       "changed": true
     },
     {
@@ -2260,6 +2266,7 @@
       "demos/fuji/vendor/OrbitControls.js",
       "demos/fuji/vendor/THREE-LICENSE.txt",
       "demos/fuji/vendor/three.module.js",
+      "image-preload.js",
       "index.html",
       "motion.css",
       "motion.js",
