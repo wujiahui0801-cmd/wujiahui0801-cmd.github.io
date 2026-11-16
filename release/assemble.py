@@ -12,7 +12,9 @@ with tarfile.open(release / 'update.tar.gz', 'r:gz') as archive:
         rel = PurePosixPath(entry['path'])
         if rel.is_absolute() or '..' in rel.parts:
             raise ValueError('Unsafe release path')
-        if str(rel) in updates:
+        if str(rel) == '.nojekyll' and entry['size'] == 0:
+            data = b''
+        elif str(rel) in updates:
             member = updates[str(rel)]
             if not member.isfile():
                 raise ValueError('Release entries must be regular files')
