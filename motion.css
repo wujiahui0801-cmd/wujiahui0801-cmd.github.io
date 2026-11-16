@@ -70,18 +70,18 @@ html{background:#f8f7f3}
 @media(prefers-reduced-motion:no-preference){
  @view-transition{navigation:auto}
  ::view-transition-old(root){animation:page-out 200ms var(--motion-ease) both}
- ::view-transition-new(root){animation:page-in 280ms var(--motion-ease) both}
- ::view-transition-group(site-header){animation-duration:280ms}
- .resume-home .hero-picture img{animation:portrait-settle 800ms var(--motion-ease) both;transform:translate3d(var(--hero-x,0px),var(--hero-y,0px),0) scale(1.015);transition:transform var(--motion-slow) var(--motion-ease)}
+ ::view-transition-new(root){animation:page-in 240ms var(--motion-ease) both}
+ ::view-transition-group(site-header){animation-duration:240ms}
+ .resume-home .hero-picture img{animation:portrait-settle 240ms var(--motion-ease) both;transform:translate3d(var(--hero-x,0px),var(--hero-y,0px),0) scale(1.015);transition:transform var(--motion-slow) var(--motion-ease)}
  .resume-home .hero h1{animation:title-enter var(--motion-hero) var(--motion-ease) both}
- .resume-home .hero-intro{animation:copy-enter 420ms 100ms var(--motion-ease) both}
- .resume-home .hero-link,.resume-home .hero-contact{animation:copy-enter 420ms 160ms var(--motion-ease) both}
+ .resume-home .hero-intro{animation:copy-enter 240ms 40ms var(--motion-ease) both}
+ .resume-home .hero-link,.resume-home .hero-contact{animation:copy-enter 240ms 60ms var(--motion-ease) both}
  .project-directory[open]{animation:directory-enter var(--motion-medium) var(--motion-ease) both}
  .media-dialog.is-recording[open] .recording-poster{animation:poster-enter var(--motion-medium) var(--motion-ease) both}
  .media-dialog.is-recording[open] .recording-document{animation:document-enter var(--motion-medium) var(--motion-ease) both}
 }
 @keyframes portrait-settle{from{transform:scale(1.035)}to{transform:translate3d(var(--hero-x,0px),var(--hero-y,0px),0) scale(1.015)}}
-@keyframes title-enter{from{opacity:.4;transform:translateY(14px);filter:blur(3px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes title-enter{from{opacity:.7;transform:translateY(8px)}to{opacity:1;transform:none}}
 @keyframes copy-enter{from{opacity:.5;transform:translateY(10px)}to{opacity:1;transform:none}}
 @keyframes page-out{to{opacity:0}}
 @keyframes page-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}

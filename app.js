@@ -77,12 +77,13 @@ const mediaCaption = dialog.querySelector('.media-caption');
 const mediaZoom = dialog.querySelector('.media-zoom');
 let mediaOpener = null;
 let savedScrollPosition = 0;
+let recordingControls = null;
 let toastTimer;
 function setMediaZoom(enabled) {
   dialog.classList.toggle('is-zoomed', enabled);
   if (mediaZoom) {
     mediaZoom.setAttribute('aria-pressed', String(enabled));
-    mediaZoom.textContent = enabled ? '适合窗口' : '放大';
+    mediaZoom.textContent = enabled ? '适合窗口' : dialog.classList.contains?.('is-recording') ? '放大课件' : '放大';
   }
 }
 mediaZoom?.addEventListener('click', () => setMediaZoom(mediaZoom.getAttribute('aria-pressed') !== 'true'));
@@ -137,6 +138,9 @@ document.querySelectorAll('[data-recording]').forEach(button => button.addEventL
   setMediaZoom(false);
   if (mediaZoom) mediaZoom.hidden = true;
   dialog.classList.add('is-recording');
+  if (mediaZoom) {mediaZoom.hidden = false; mediaZoom.textContent = '放大课件';}
+  dialog.classList.remove('poster-hidden');
+  dialog.dataset.recordingView = 'pdf';
   mediaTitle.textContent = item.title;
   mediaCaption.textContent = '';
   const viewer = document.createElement('div');
@@ -157,18 +161,84 @@ document.querySelectorAll('[data-recording]').forEach(button => button.addEventL
   replay.target = '_blank'; replay.rel = 'noopener noreferrer'; replay.textContent = item.title + ' ↗';
   const pdfBar = document.createElement('div');
   pdfBar.className = 'recording-pdf-bar';
-  const pdfLabel = document.createElement('span'); pdfLabel.textContent = '完整课件 PDF';
+  const pdfLabel = document.createElement('span'); pdfLabel.textContent = `完整课件 · ${item.pages.length} 页`;
   const pdfLink = document.createElement('a'); pdfLink.href = item.pdf;
-  pdfLink.target = '_blank'; pdfLink.rel = 'noopener noreferrer'; pdfLink.textContent = '单独打开 ↗';
+  pdfLink.download = item.title + '.pdf'; pdfLink.textContent = '下载原 PDF ↧';
   pdfBar.append(pdfLabel); pdfBar.append(pdfLink);
   head.append(replayLabel); head.append(replay); head.append(pdfBar);
-  const frame = document.createElement('iframe');
-  frame.src = item.pdf + '#view=FitH'; frame.title = item.title + ' · 完整课件 PDF';
-  documentPanel.append(head); documentPanel.append(frame);
+  const sheets = document.createElement('div');
+  sheets.className = 'course-pages'; sheets.setAttribute('aria-label',item.title+' · 全部课件');
+  item.pages.forEach((page,index)=>{
+    const figure = document.createElement('figure'); figure.className = 'course-page';
+    const sheet = document.createElement('img');
+    sheet.src = page.src; sheet.alt = `${item.title} · 第 ${index+1} 页`;
+    sheet.width = page.width; sheet.height = page.height;
+    sheet.loading = index === 0 ? 'eager' : 'lazy'; sheet.decoding = 'async';
+    if (index === 0) sheet.fetchPriority = 'high';
+    sheet.addEventListener('error',()=>{
+      const retry = document.createElement('button'); retry.type = 'button';
+      retry.className = 'course-retry'; retry.textContent = `第 ${index+1} 页未加载，点击重试`;
+      retry.addEventListener('click',()=>{ sheet.src = page.src + '?retry=' + Date.now(); retry.remove(); });
+      figure.append(retry);
+    });
+    const caption = document.createElement('figcaption'); caption.textContent = `${index+1} / ${item.pages.length}`;
+    figure.append(sheet); figure.append(caption); sheets.append(figure);
+  });
+  documentPanel.append(head); documentPanel.append(sheets);
   viewer.append(poster); viewer.append(documentPanel); mediaBody.append(viewer);
+  recordingControls?.remove?.();
+  recordingControls = document.createElement('div');
+  recordingControls.className = 'recording-controls';
+  const switcher = document.createElement('div');
+  switcher.className = 'recording-view-switch';
+  switcher.setAttribute('aria-label','查看课件或海报');
+  const viewButtons = [];
+  for (const [view,label] of [['pdf','课件'],['poster','海报']]) {
+    const control = document.createElement('button');
+    control.type = 'button'; control.className = 'recording-control';
+    control.textContent = label; control.setAttribute('aria-pressed',String(view === 'pdf'));
+    control.addEventListener('click',()=>{
+      dialog.dataset.recordingView = view;
+      for (const [value,button] of viewButtons) button.setAttribute('aria-pressed',String(value === view));
+    });
+    viewButtons.push([view,control]); switcher.append(control);
+  }
+  const posterToggle = document.createElement('button');
+  posterToggle.type = 'button'; posterToggle.className = 'recording-control recording-poster-toggle';
+  posterToggle.textContent = '收起海报'; posterToggle.setAttribute('aria-expanded','true');
+  posterToggle.addEventListener('click',()=>{
+    const hide = posterToggle.getAttribute('aria-expanded') === 'true';
+    dialog.classList.toggle('poster-hidden',hide);
+    posterToggle.setAttribute('aria-expanded',String(!hide));
+    posterToggle.textContent = hide ? '显示海报' : '收起海报';
+  });
+  recordingControls.append(switcher); recordingControls.append(posterToggle);
+  dialog.querySelector('.media-actions')?.append(recordingControls);
   if (typeof dialog.showModal !== 'function') { window.open(item.pdf,'_blank','noopener,noreferrer'); return; }
   dialog.showModal(); document.body.style.overflow = 'hidden';
 }));
+
+// Warm the first sheet near a poster, so opening it does not initialize another document viewer.
+const warmedCourses = new Map();
+function warmCourse(button) {
+  let first;
+  try { first = JSON.parse(button.dataset.recording).pages?.[0]?.src; } catch { return; }
+  if (!first || warmedCourses.has(first)) return;
+  const image = document.createElement('img'); image.decoding = 'async';
+  image.src = first; warmedCourses.set(first,image);
+}
+const courseButtons = [...document.querySelectorAll('[data-recording]')];
+if (courseButtons.length && 'IntersectionObserver' in window) {
+  const previewObserver = new IntersectionObserver(entries=>{
+    for (const entry of entries) if (entry.isIntersecting) {warmCourse(entry.target); previewObserver.unobserve(entry.target);}
+  },{rootMargin:'180px'});
+  courseButtons.forEach(button=>previewObserver.observe(button));
+}
+courseButtons.forEach(button=>{
+  button.addEventListener('pointerenter',()=>warmCourse(button),{once:true});
+  button.addEventListener('focus',()=>warmCourse(button),{once:true});
+  button.addEventListener('touchstart',()=>warmCourse(button),{once:true,passive:true});
+});
 dialog.querySelector('.media-close').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => {
   const bounds = dialog.getBoundingClientRect();
@@ -179,6 +249,9 @@ dialog.addEventListener('close', () => {
   if (video) video.pause();
   mediaBody.replaceChildren();
   dialog.classList.remove('is-recording');
+  dialog.classList.remove('poster-hidden');
+  delete dialog.dataset.recordingView;
+  recordingControls?.remove?.(); recordingControls = null;
   setMediaZoom(false);
   document.body.style.overflow = '';
   window.scrollTo({ top: savedScrollPosition, behavior: 'instant' });
